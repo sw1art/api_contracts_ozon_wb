@@ -1,0 +1,108 @@
+{
+  "captured_on": "2026-11-17",
+  "wb_specifications": 13,
+  "wb_operations": 311,
+  "ozon_operations": 497,
+  "files": [
+    {
+      "path": "ozon/documentation.txt",
+      "bytes": 1539628,
+      "sha256": "84ad61b15bc64b426cec497a7165996c5845633a8dd3181755991f0f0004b82a"
+    },
+    {
+      "path": "ozon/operations.json",
+      "bytes": 160581,
+      "sha256": "eed5522459437d8d3ea5280218ad1d6ad52924f2e08b65055bcfc9db6d8a2b6e"
+    },
+    {
+      "path": "routes.csv",
+      "bytes": 186722,
+      "sha256": "c5c7164d8446557e1bf4980efd9331d633ff33b6301c36e19d3226df6ce3d27d"
+    },
+    {
+      "path": "routes.md",
+      "bytes": 156977,
+      "sha256": "1e109c536fd6f7321994e84a8a435a608f33a3dc41571e9a0a54ef548861b5fa"
+    },
+    {
+      "path": "wb/01-general.yaml",
+      "bytes": 130112,
+      "sha256": "44d3bf09b5a4528f67ee36096788e4a96cafa0d28e4ed19cc7b96149898f3a3b"
+    },
+    {
+      "path": "wb/02-items.yaml",
+      "bytes": 493730,
+      "sha256": "691be0e380d103ab69681306aec70429ca27fb9f21604f74fcaae913f502e0a9"
+    },
+    {
+      "path": "wb/03-orders-fbs.yaml",
+      "bytes": 337025,
+      "sha256": "f5d34b41856e2a5306ea480ae13ab1d59c06b65db696b5d50ac4cf148f009b8a"
+    },
+    {
+      "path": "wb/04-orders-dbw.yaml",
+      "bytes": 121442,
+      "sha256": "9026e34186403deeedf5adcadec8c085bc1e275b709e0d7badcf8fd046ee79cd"
+    },
+    {
+      "path": "wb/05-dbs.yaml",
+      "bytes": 158674,
+      "sha256": "ef25211cb0dfe223e444fe39b6c072eb771427577b3a5a04b0a302924decd3a2"
+    },
+    {
+      "path": "wb/06-in-store-pickup.yaml",
+      "bytes": 133369,
+      "sha256": "2b73eff97fe11232805de6c95d0356152650c3ec04eb2751abd4f665f9a77e37"
+    },
+    {
+      "path": "wb/07-orders-fbw.yaml",
+      "bytes": 98266,
+      "sha256": "660c2c61a912b0650c2ac1530f1d7b85ae346b331897621fd21fbb496ce469e5"
+    },
+    {
+      "path": "wb/08-promotion.yaml",
+      "bytes": 332622,
+      "sha256": "1e1d7fa8357f61b91ae3364ebcb88f92444dfd1269d8bcd2ad52082d7f0cf5b5"
+    },
+    {
+      "path": "wb/09-communications.yaml",
+      "bytes": 210503,
+      "sha256": "7cfa9caf5243e41072afeff35036bbf73e5cf81f24ac8917464c6722a47e8266"
+    },
+    {
+      "path": "wb/10-rates.yaml",
+      "bytes": 46815,
+      "sha256": "50e55adf0584c81a14620afe8064fbe2b9a954b168f12aca350785a4bbce8d9e"
+    },
+    {
+      "path": "wb/11-analytics.yaml",
+      "bytes": 301774,
+      "sha256": "23e4d4fb896e89f7af349d323a2a16911681e6a9504eec9502b4c99ddd1dd077"
+    },
+    {
+      "path": "wb/12-reports.yaml",
+      "bytes": 164800,
+      "sha256": "07de81522e545388348c9aca6b3e52088e32ca93bd1e7b9f8f278585510c6a36"
+    },
+    {
+      "path": "wb/13-finances.yaml",
+      "bytes": 95767,
+      "sha256": "6998ea47923bb34d0db36fec9a9a225e85149a03849935092eb5523e9e74d7e2"
+    },
+    {
+      "path": "wb/general-documentation.txt",
+      "bytes": 53037,
+      "sha256": "eddd9b4f418ff920590c64ddd05b2fdedf49a29ed9c9a1c305c512dce1ac8250"
+    },
+    {
+      "path": "wb/operations.json",
+      "bytes": 227709,
+      "sha256": "ac3ebbb6d11ce0f2ff58dcc5cc7df79b22094267e81b3f228f98cba1ad24ce4f"
+    },
+    {
+      "path": "wb/sources.json",
+      "bytes": 3210,
+      "sha256": "5b16e891fef52cce44d0f54e86a4758e17d2a1d39241fb462ce32fe2b77adef7"
+    }
+  ]
+}

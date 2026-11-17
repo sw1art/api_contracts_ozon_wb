@@ -1,0 +1,84 @@
+{
+  "captured_on": "2026-11-17",
+  "documentation": "https://dev.wildberries.ru/docs/openapi/api-information",
+  "specifications": [
+    {
+      "section": "Общее",
+      "swagger": "https://dev.wildberries.ru/swagger/general",
+      "url": "https://dev.wildberries.ru/api/swagger/yaml/ru/01-general.yaml",
+      "file": "01-general.yaml"
+    },
+    {
+      "section": "Работа с товарами",
+      "swagger": "https://dev.wildberries.ru/swagger/items",
+      "url": "https://dev.wildberries.ru/api/swagger/yaml/ru/02-items.yaml",
+      "file": "02-items.yaml"
+    },
+    {
+      "section": "Заказы FBS",
+      "swagger": "https://dev.wildberries.ru/swagger/orders-fbs",
+      "url": "https://dev.wildberries.ru/api/swagger/yaml/ru/03-orders-fbs.yaml",
+      "file": "03-orders-fbs.yaml"
+    },
+    {
+      "section": "Заказы DBW",
+      "swagger": "https://dev.wildberries.ru/swagger/orders-dbw",
+      "url": "https://dev.wildberries.ru/api/swagger/yaml/ru/04-orders-dbw.yaml",
+      "file": "04-orders-dbw.yaml"
+    },
+    {
+      "section": "DBS",
+      "swagger": "https://dev.wildberries.ru/swagger/dbs",
+      "url": "https://dev.wildberries.ru/api/swagger/yaml/ru/05-dbs.yaml",
+      "file": "05-dbs.yaml"
+    },
+    {
+      "section": "Самовывоз",
+      "swagger": "https://dev.wildberries.ru/swagger/in-store-pickup",
+      "url": "https://dev.wildberries.ru/api/swagger/yaml/ru/06-in-store-pickup.yaml",
+      "file": "06-in-store-pickup.yaml"
+    },
+    {
+      "section": "Поставки FBW",
+      "swagger": "https://dev.wildberries.ru/swagger/orders-fbw",
+      "url": "https://dev.wildberries.ru/api/swagger/yaml/ru/07-orders-fbw.yaml",
+      "file": "07-orders-fbw.yaml"
+    },
+    {
+      "section": "Маркетинг и продвижение",
+      "swagger": "https://dev.wildberries.ru/swagger/promotion",
+      "url": "https://dev.wildberries.ru/api/swagger/yaml/ru/08-promotion.yaml",
+      "file": "08-promotion.yaml"
+    },
+    {
+      "section": "Общение с покупателями",
+      "swagger": "https://dev.wildberries.ru/swagger/communications",
+      "url": "https://dev.wildberries.ru/api/swagger/yaml/ru/09-communications.yaml",
+      "file": "09-communications.yaml"
+    },
+    {
+      "section": "Тарифы",
+      "swagger": "https://dev.wildberries.ru/swagger/rates",
+      "url": "https://dev.wildberries.ru/api/swagger/yaml/ru/10-rates.yaml",
+      "file": "10-rates.yaml"
+    },
+    {
+      "section": "Аналитика и данные",
+      "swagger": "https://dev.wildberries.ru/swagger/analytics",
+      "url": "https://dev.wildberries.ru/api/swagger/yaml/ru/11-analytics.yaml",
+      "file": "11-analytics.yaml"
+    },
+    {
+      "section": "Отчёты",
+      "swagger": "https://dev.wildberries.ru/swagger/reports",
+      "url": "https://dev.wildberries.ru/api/swagger/yaml/ru/12-reports.yaml",
+      "file": "12-reports.yaml"
+    },
+    {
+      "section": "Документы и бухгалтерия",
+      "swagger": "https://dev.wildberries.ru/swagger/finances",
+      "url": "https://dev.wildberries.ru/api/swagger/yaml/ru/13-finances.yaml",
+      "file": "13-finances.yaml"
+    }
+  ]
+}

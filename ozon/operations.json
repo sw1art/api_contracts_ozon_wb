@@ -1,0 +1,3487 @@
+{
+  "source": "https://docs.ozon.ru/api/seller/",
+  "captured_on": "2026-11-17",
+  "format": "rendered-documentation-index",
+  "base_url": "https://api-seller.ozon.ru",
+  "operations": [
+    {
+      "method": "POST",
+      "path": "/v1/roles",
+      "operation_id": "AccessAPI_RolesByToken",
+      "summary": "Получить список ролей и методов по API-ключу",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/AccessAPI_RolesByToken"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/seller/info",
+      "operation_id": "SellerAPI_SellerInfo",
+      "summary": "Информация о кабинете продавца",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/SellerAPI_SellerInfo"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/seller/ozon-logistics/info",
+      "operation_id": "SellerAPI_SellerOzonLogisticsInfo",
+      "summary": "Информация о подключении Ozon Доставки",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/SellerAPI_SellerOzonLogisticsInfo"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/description-category/tree",
+      "operation_id": "DescriptionCategoryAPI_GetTree",
+      "summary": "Дерево категорий и типов товаров",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/DescriptionCategoryAPI_GetTree"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/description-category/attribute",
+      "operation_id": "DescriptionCategoryAPI_GetAttributes",
+      "summary": "Список характеристик категории",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/DescriptionCategoryAPI_GetAttributes"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/description-category/attribute/values",
+      "operation_id": "DescriptionCategoryAPI_GetAttributeValues",
+      "summary": "Справочник значений характеристики",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/DescriptionCategoryAPI_GetAttributeValues"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/description-category/attribute/values/search",
+      "operation_id": "DescriptionCategoryAPI_SearchAttributeValues",
+      "summary": "Поиск по справочным значениям характеристики",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/DescriptionCategoryAPI_SearchAttributeValues"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/product/placement-zone/info",
+      "operation_id": "ProductAPI_GetProductPlacementZoneInfo",
+      "summary": "Получить зоны размещения товаров по SKU перед поставкой",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ProductAPI_GetProductPlacementZoneInfo"
+    },
+    {
+      "method": "POST",
+      "path": "/v3/product/import",
+      "operation_id": "ProductAPI_ImportProductsV3",
+      "summary": "Создать или обновить товар",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ProductAPI_ImportProductsV3"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/product/import/info",
+      "operation_id": "ProductAPI_GetImportProductsInfo",
+      "summary": "Узнать статус добавления или обновления товара",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ProductAPI_GetImportProductsInfo"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/product/import-by-sku",
+      "operation_id": "ProductAPI_ImportProductsBySKU",
+      "summary": "Создать товар по SKU",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ProductAPI_ImportProductsBySKU"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/product/attributes/update",
+      "operation_id": "ProductAPI_ProductUpdateAttributes",
+      "summary": "Обновить характеристики товара",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ProductAPI_ProductUpdateAttributes"
+    },
+    {
+      "method": "POST",
+      "path": "/v2/product/pictures/import",
+      "operation_id": "ProductImportPicturesV2",
+      "summary": "Загрузить или обновить изображения товара",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ProductImportPicturesV2"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/product/pictures/import",
+      "operation_id": "ProductAPI_ProductImportPictures",
+      "summary": "Загрузить или обновить изображения товара Deprecated",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ProductAPI_ProductImportPictures"
+    },
+    {
+      "method": "POST",
+      "path": "/v3/product/list",
+      "operation_id": "ProductAPI_GetProductList",
+      "summary": "Список товаров",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ProductAPI_GetProductList"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/product/rating-by-sku",
+      "operation_id": "ProductAPI_GetProductRatingBySku",
+      "summary": "Получить контент-рейтинг товаров по SKU",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ProductAPI_GetProductRatingBySku"
+    },
+    {
+      "method": "POST",
+      "path": "/v3/product/info/list",
+      "operation_id": "ProductAPI_GetProductInfoList",
+      "summary": "Получить информацию о товарах по идентификаторам",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ProductAPI_GetProductInfoList"
+    },
+    {
+      "method": "POST",
+      "path": "/v4/product/info/attributes",
+      "operation_id": "ProductAPI_GetProductAttributesV4",
+      "summary": "Получить описание характеристик товара",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ProductAPI_GetProductAttributesV4"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/product/info/description",
+      "operation_id": "ProductAPI_GetProductInfoDescription",
+      "summary": "Получить описание товара",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ProductAPI_GetProductInfoDescription"
+    },
+    {
+      "method": "POST",
+      "path": "/v4/product/info/limit",
+      "operation_id": "ProductAPI_GetUploadQuota",
+      "summary": "Лимиты на ассортимент, создание и обновление товаров",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ProductAPI_GetUploadQuota"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/product/update/offer-id",
+      "operation_id": "ProductAPI_ProductUpdateOfferID",
+      "summary": "Изменить артикулы товаров из системы продавца",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ProductAPI_ProductUpdateOfferID"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/product/archive",
+      "operation_id": "ProductAPI_ProductArchive",
+      "summary": "Перенести товар в архив",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ProductAPI_ProductArchive"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/product/unarchive",
+      "operation_id": "ProductAPI_ProductUnarchive",
+      "summary": "Вернуть товар из архива",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ProductAPI_ProductUnarchive"
+    },
+    {
+      "method": "POST",
+      "path": "/v2/products/delete",
+      "operation_id": "ProductAPI_DeleteProducts",
+      "summary": "Удалить товар без SKU из архива",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ProductAPI_DeleteProducts"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/product/info/subscription",
+      "operation_id": "ProductAPI_GetProductInfoSubscription",
+      "summary": "Количество подписавшихся на товар пользователей",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ProductAPI_GetProductInfoSubscription"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/product/related-sku/get",
+      "operation_id": "ProductAPI_ProductGetRelatedSKU",
+      "summary": "Получить связанные SKU",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ProductAPI_ProductGetRelatedSKU"
+    },
+    {
+      "method": "POST",
+      "path": "/v2/product/pictures/info",
+      "operation_id": "ProductAPI_ProductInfoPicturesV2",
+      "summary": "Получить изображения товаров",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ProductAPI_ProductInfoPicturesV2"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/product/info/wrong-volume",
+      "operation_id": "ProductAPI_ProductInfoWrongVolume",
+      "summary": "Список товаров с некорректными ОВХ",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ProductAPI_ProductInfoWrongVolume"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/barcode/add",
+      "operation_id": "add-barcode",
+      "summary": "Привязать штрихкод к товару",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/add-barcode"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/barcode/delete",
+      "operation_id": "BarcodeDelete",
+      "summary": "Отвязать штрихкод от товара",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/BarcodeDelete"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/barcode/generate",
+      "operation_id": "generate-barcode",
+      "summary": "Создать штрихкод для товара",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/generate-barcode"
+    },
+    {
+      "method": "POST",
+      "path": "/v2/products/stocks",
+      "operation_id": "ProductAPI_ProductsStocksV2",
+      "summary": "Обновить количество товаров на складах",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ProductAPI_ProductsStocksV2"
+    },
+    {
+      "method": "POST",
+      "path": "/v4/product/info/stocks",
+      "operation_id": "ProductAPI_GetProductInfoStocks",
+      "summary": "Информация о количестве товаров",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ProductAPI_GetProductInfoStocks"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/product/info/stocks-by-warehouse/fbo",
+      "operation_id": "GetProductInfoStocksByWarehouseFbo",
+      "summary": "Получить информацию об остатках на складах FBO",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/GetProductInfoStocksByWarehouseFbo"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/product/info/warehouse/stocks",
+      "operation_id": "ProductInfoWarehouseStocks",
+      "summary": "Получить информацию по остаткам на складе FBS и rFBS",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ProductInfoWarehouseStocks"
+    },
+    {
+      "method": "POST",
+      "path": "/v2/product/info/stocks-by-warehouse/fbs",
+      "operation_id": "ProductAPI_GetProductInfoStocksByWarehouseFbsV2",
+      "summary": "Получить информацию об остатках на складах продавца",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ProductAPI_GetProductInfoStocksByWarehouseFbsV2"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/product/info/stocks-by-warehouse/fbs",
+      "operation_id": "ProductAPI_ProductStocksByWarehouseFbs",
+      "summary": "Информация об остатках на складах продавца (FBS и rFBS)",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ProductAPI_ProductStocksByWarehouseFbs"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/product/import/prices",
+      "operation_id": "ProductAPI_ImportProductsPrices",
+      "summary": "Обновить цену",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ProductAPI_ImportProductsPrices"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/product/action/timer/update",
+      "operation_id": "ProductAPI_ActionTimerUpdate",
+      "summary": "Обновление таймера актуальности минимальной цены",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ProductAPI_ActionTimerUpdate"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/product/action/timer/status",
+      "operation_id": "ProductAPI_ActionTimerStatus",
+      "summary": "Получить статус установленного таймера",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ProductAPI_ActionTimerStatus"
+    },
+    {
+      "method": "POST",
+      "path": "/v5/product/info/prices",
+      "operation_id": "ProductAPI_GetProductInfoPrices",
+      "summary": "Получить информацию о цене товара",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ProductAPI_GetProductInfoPrices"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/product/info/discounted",
+      "operation_id": "ProductAPI_GetProductInfoDiscounted",
+      "summary": "Узнать информацию об уценке и основном товаре по SKU уценённого товара",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ProductAPI_GetProductInfoDiscounted"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/product/update/discount",
+      "operation_id": "ProductAPI_ProductUpdateDiscount",
+      "summary": "Установить скидку на уценённый товар",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ProductAPI_ProductUpdateDiscount"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/actions",
+      "operation_id": "Promos",
+      "summary": "Список акций",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/Promos"
+    },
+    {
+      "method": "POST",
+      "path": "/v2/actions/candidates",
+      "operation_id": "ActionsCandidates",
+      "summary": "Получить список товаров, которые могут участвовать в акции",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ActionsCandidates"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/actions/candidates",
+      "operation_id": "PromosCandidates",
+      "summary": "Список доступных для акции товаров Deprecated",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/PromosCandidates"
+    },
+    {
+      "method": "POST",
+      "path": "/v2/actions/products",
+      "operation_id": "ActionsProducts",
+      "summary": "Получить список товаров, которые участвуют в акции",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ActionsProducts"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/actions/products",
+      "operation_id": "PromosProducts",
+      "summary": "Список участвующих в акции товаров Deprecated",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/PromosProducts"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/actions/products/activate",
+      "operation_id": "PromosProductsActivate",
+      "summary": "Добавить товар в акцию Deprecated",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/PromosProductsActivate"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/actions/products/update",
+      "operation_id": "ActionsProductsUpdate",
+      "summary": "Добавить или обновить товар в акции",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ActionsProductsUpdate"
+    },
+    {
+      "method": "POST",
+      "path": "/v2/actions/products/deactivate",
+      "operation_id": "ActionsProductsDeactivate",
+      "summary": "Удалить товары из акции «Промокоды»",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ActionsProductsDeactivate"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/actions/products/deactivate",
+      "operation_id": "PromosProductsDeactivate",
+      "summary": "Удалить товары из акции Deprecated",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/PromosProductsDeactivate"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/actions/discounts-task/list",
+      "operation_id": "promos_task_list",
+      "summary": "Список заявок на скидку",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/promos_task_list"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/actions/discounts-task/approve",
+      "operation_id": "promos_task_approve",
+      "summary": "Согласовать заявку на скидку",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/promos_task_approve"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/actions/discounts-task/decline",
+      "operation_id": "promos_task_decline",
+      "summary": "Отклонить заявку на скидку",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/promos_task_decline"
+    },
+    {
+      "method": "POST",
+      "path": "/v2/actions/auto-add/products/list",
+      "operation_id": "ActionsAutoAddProductsListV2",
+      "summary": "Получить список товаров из автодобавления в акцию",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ActionsAutoAddProductsListV2"
+    },
+    {
+      "method": "POST",
+      "path": "/v2/actions/auto-add/products/candidates",
+      "operation_id": "ActionsAutoAddProductsCandidatesV2",
+      "summary": "Получить список доступных товаров для автодобавления в акцию",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ActionsAutoAddProductsCandidatesV2"
+    },
+    {
+      "method": "POST",
+      "path": "/v2/actions/auto-add/products/delete",
+      "operation_id": "ActionsAutoAddProductsDeleteV2",
+      "summary": "Удалить товары из автодобавления в акцию",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ActionsAutoAddProductsDeleteV2"
+    },
+    {
+      "method": "POST",
+      "path": "/v2/actions/auto-add/products/update",
+      "operation_id": "ActionsAutoAddProductsUpdateV2",
+      "summary": "Добавить или обновить товары в автодобавлении в акцию",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ActionsAutoAddProductsUpdateV2"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/pricing-strategy/competitors/list",
+      "operation_id": "pricing_competitors",
+      "summary": "Список конкурентов",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/pricing_competitors"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/pricing-strategy/list",
+      "operation_id": "pricing_list",
+      "summary": "Список стратегий",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/pricing_list"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/pricing-strategy/create",
+      "operation_id": "pricing_create",
+      "summary": "Создать стратегию",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/pricing_create"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/pricing-strategy/info",
+      "operation_id": "pricing_info",
+      "summary": "Информация о стратегии",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/pricing_info"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/pricing-strategy/update",
+      "operation_id": "pricing_update",
+      "summary": "Обновить стратегию",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/pricing_update"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/pricing-strategy/products/add",
+      "operation_id": "pricing_items-add",
+      "summary": "Добавить товары в стратегию",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/pricing_items-add"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/pricing-strategy/strategy-ids-by-product-ids",
+      "operation_id": "pricing_ids",
+      "summary": "Список идентификаторов стратегий",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/pricing_ids"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/pricing-strategy/products/list",
+      "operation_id": "pricing_items-list",
+      "summary": "Список товаров в стратегии",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/pricing_items-list"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/pricing-strategy/product/info",
+      "operation_id": "pricing_items-info",
+      "summary": "Цена товара у конкурента",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/pricing_items-info"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/pricing-strategy/products/delete",
+      "operation_id": "pricing_items-delete",
+      "summary": "Удалить товары из стратегии",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/pricing_items-delete"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/pricing-strategy/status",
+      "operation_id": "pricing_status",
+      "summary": "Изменить статус стратегии",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/pricing_status"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/pricing-strategy/delete",
+      "operation_id": "pricing_delete",
+      "summary": "Удалить стратегию",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/pricing_delete"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/brand/company-certification/list",
+      "operation_id": "BrandAPI_BrandCompanyCertificationList",
+      "summary": "Список сертифицируемых брендов",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/BrandAPI_BrandCompanyCertificationList"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/product/certificate/accordance-types",
+      "operation_id": "ProductAPI_ProductCertificateAccordanceTypes",
+      "summary": "Список типов соответствия требованиям (версия 1)",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ProductAPI_ProductCertificateAccordanceTypes"
+    },
+    {
+      "method": "GET",
+      "path": "/v2/product/certificate/accordance-types/list",
+      "operation_id": "CertificateAccordanceTypes",
+      "summary": "Список типов соответствия требованиям (версия 2)",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/CertificateAccordanceTypes"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/product/certificate/types",
+      "operation_id": "ProductAPI_ProductCertificateTypes",
+      "summary": "Справочник типов документов",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ProductAPI_ProductCertificateTypes"
+    },
+    {
+      "method": "POST",
+      "path": "/v2/product/certification/list",
+      "operation_id": "ProductAPI_ProductCertificationList",
+      "summary": "Список сертифицируемых категорий",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ProductAPI_ProductCertificationList"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/product/certification/list",
+      "operation_id": "ProductAPI_V1ProductCertificationList",
+      "summary": "Список сертифицируемых категорий",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ProductAPI_V1ProductCertificationList"
+    },
+    {
+      "method": "POST",
+      "path": "/v2/product/certification/options",
+      "operation_id": "ProductCertificateOptions",
+      "summary": "Получить параметры для создания сертификата качества",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ProductCertificateOptions"
+    },
+    {
+      "method": "POST",
+      "path": "/v2/product/certification/params",
+      "operation_id": "ProductCertificateParams",
+      "summary": "Получить обязательные параметры для создания сертификата качества",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ProductCertificateParams"
+    },
+    {
+      "method": "POST",
+      "path": "/v2/product/certificate/create",
+      "operation_id": "ProductCertificateCreate",
+      "summary": "Создать сертификат качества",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ProductCertificateCreate"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/product/certificate/create",
+      "operation_id": "ProductAPI_ProductCertificateCreate",
+      "summary": "Добавить сертификаты для товаров Deprecated",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ProductAPI_ProductCertificateCreate"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/product/certificate/bind",
+      "operation_id": "ProductAPI_ProductCertificateBind",
+      "summary": "Привязать сертификат к товару",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ProductAPI_ProductCertificateBind"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/product/certificate/delete",
+      "operation_id": "CertificateDelete",
+      "summary": "Удалить сертификат",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/CertificateDelete"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/product/certificate/info",
+      "operation_id": "CertificateInfo",
+      "summary": "Информация о сертификате",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/CertificateInfo"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/product/certificate/list",
+      "operation_id": "CertificateList",
+      "summary": "Список сертификатов",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/CertificateList"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/product/certificate/product_status/list",
+      "operation_id": "ProductStatusList",
+      "summary": "Список возможных статусов товаров",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ProductStatusList"
+    },
+    {
+      "method": "POST",
+      "path": "/v2/product/certificate/products/list",
+      "operation_id": "ProductCertificateProductsListV2",
+      "summary": "Получить список товаров, которые привязаны к сертификату",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ProductCertificateProductsListV2"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/product/certificate/products/list",
+      "operation_id": "CertificateProductsList",
+      "summary": "Список товаров, привязанных к сертификату Deprecated",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/CertificateProductsList"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/product/certificate/unbind",
+      "operation_id": "CertificateUnbind",
+      "summary": "Отвязать товар от сертификата",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/CertificateUnbind"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/product/certificate/rejection_reasons/list",
+      "operation_id": "RejectionReasonsList",
+      "summary": "Возможные причины отклонения сертификата",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/RejectionReasonsList"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/product/certificate/status/list",
+      "operation_id": "CertificateStatusList",
+      "summary": "Возможные статусы сертификатов",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/CertificateStatusList"
+    },
+    {
+      "method": "POST",
+      "path": "/v2/warehouse/list",
+      "operation_id": "WarehouseListV2",
+      "summary": "Список складов",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/WarehouseListV2"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/warehouse/list",
+      "operation_id": "WarehouseAPI_WarehouseList",
+      "summary": "Список складов",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/WarehouseAPI_WarehouseList"
+    },
+    {
+      "method": "POST",
+      "path": "/v2/delivery-method/list",
+      "operation_id": "WarehouseAPI_DeliveryMethodListV2",
+      "summary": "Список методов доставки realFBS-склада",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/WarehouseAPI_DeliveryMethodListV2"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/delivery-method/list",
+      "operation_id": "WarehouseAPI_DeliveryMethodList",
+      "summary": "Список методов доставки склада",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/WarehouseAPI_DeliveryMethodList"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/delivery-method/return/settings/get",
+      "operation_id": "GetDeliveryMethodReturnSettingsV1",
+      "summary": "Получить информацию по возвратным настройкам rFBS и rFBS Express",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/GetDeliveryMethodReturnSettingsV1"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/warehouse/operation/status",
+      "operation_id": "GetWarehouseFBSOperationStatus",
+      "summary": "Получить статус операции",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/GetWarehouseFBSOperationStatus"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/warehouse/archive",
+      "operation_id": "ArchiveWarehouseFBS",
+      "summary": "Перенести склад в архив",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ArchiveWarehouseFBS"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/warehouse/unarchive",
+      "operation_id": "UnarchiveWarehouseFBS",
+      "summary": "Перенести склад из архива",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/UnarchiveWarehouseFBS"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/warehouse/invalid-products/get",
+      "operation_id": "WarehouseInvalidProductsGet",
+      "summary": "Получить список товаров с ограничениями по доставке",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/WarehouseInvalidProductsGet"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/warehouse/warehouses-with-invalid-products",
+      "operation_id": "WarehouseWithInvalidProducts",
+      "summary": "Получить список складов с ограниченными для доставки товарами",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/WarehouseWithInvalidProducts"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/warehouse/fbs/create/drop-off/list",
+      "operation_id": "WarehouseAPI_ListDropOffPointsForCreateFBSWarehouse",
+      "summary": "Получить список drop-off пунктов для создания склада",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/WarehouseAPI_ListDropOffPointsForCreateFBSWarehouse"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/warehouse/fbs/update/drop-off/list",
+      "operation_id": "WarehouseAPI_ListDropOffPointsForUpdateFBSWarehouse",
+      "summary": "Получить список drop-off пунктов для изменения информации склада",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/WarehouseAPI_ListDropOffPointsForUpdateFBSWarehouse"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/warehouse/fbs/create/drop-off/timeslot/list",
+      "operation_id": "WarehouseFbsCreateDropOffTimeslotList",
+      "summary": "Получить список таймслотов для создания склада с отгрузкой drop-off",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/WarehouseFbsCreateDropOffTimeslotList"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/warehouse/fbs/update/drop-off/timeslot/list",
+      "operation_id": "WarehouseFbsUpdateDropOffTimeslotList",
+      "summary": "Получить список таймслотов для обновления склада с отгрузкой drop-off",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/WarehouseFbsUpdateDropOffTimeslotList"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/warehouse/fbs/create/pick-up/timeslot/list",
+      "operation_id": "WarehouseFbsCreatePickUpTimeslotList",
+      "summary": "Получить список таймслотов для создания склада с отгрузкой pick-up",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/WarehouseFbsCreatePickUpTimeslotList"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/warehouse/fbs/update/pick-up/timeslot/list",
+      "operation_id": "WarehouseFbsUpdatePickUpTimeslotList",
+      "summary": "Получить список таймслотов для обновления склада с отгрузкой pick-up",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/WarehouseFbsUpdatePickUpTimeslotList"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/warehouse/fbs/create",
+      "operation_id": "WarehouseAPI_CreateWarehouseFBS",
+      "summary": "Создать склад",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/WarehouseAPI_CreateWarehouseFBS"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/warehouse/fbs/update",
+      "operation_id": "UpdateWarehouseFBS",
+      "summary": "Обновить склад",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/UpdateWarehouseFBS"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/warehouse/fbs/first-mile/update",
+      "operation_id": "UpdateWarehouseFBSFirstMile",
+      "summary": "Обновить первую милю",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/UpdateWarehouseFBSFirstMile"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/warehouse/fbs/create/return-point/list",
+      "operation_id": "WarehouseFBSCreateReturnPointList",
+      "summary": "Получить список пунктов возврата для создания склада",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/WarehouseFBSCreateReturnPointList"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/warehouse/fbs/update/return-point/list",
+      "operation_id": "WarehouseFBSUpdateReturnPointList",
+      "summary": "Получить список пунктов возврата для обновления склада",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/WarehouseFBSUpdateReturnPointList"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/warehouse/fbs/return-mile/info",
+      "operation_id": "WarehouseFBSReturnMileInfo",
+      "summary": "Получить информацию о возвратной миле",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/WarehouseFBSReturnMileInfo"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/warehouse/fbs/return-mile/check",
+      "operation_id": "WarehouseFbsReturnMileCheck",
+      "summary": "Проверить необходимость установки возвратной мили на склад",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/WarehouseFbsReturnMileCheck"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/warehouse/fbs/pickup/courier/create",
+      "operation_id": "WarehouseFbsPickUpCourierCreate",
+      "summary": "Создать вызов курьера на забор отгрузки pick-up",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/WarehouseFbsPickUpCourierCreate"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/warehouse/fbs/pickup/courier/cancel",
+      "operation_id": "WarehouseFbsPickUpCourierCancel",
+      "summary": "Отменить вызов курьера на забор отгрузки pick-up",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/WarehouseFbsPickUpCourierCancel"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/warehouse/fbs/pickup/history/list",
+      "operation_id": "WarehouseFbsPickUpHistoryList",
+      "summary": "Получить историю отгрузок курьерам",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/WarehouseFbsPickUpHistoryList"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/warehouse/fbs/pickup/planning/list",
+      "operation_id": "WarehouseFbsPickUpPlanningList",
+      "summary": "Получить список складов для планирования отгрузок курьеру",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/WarehouseFbsPickUpPlanningList"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/warehouse/erfbs/aggregator/create",
+      "operation_id": "WarehouseERFBSAggregatorCreate",
+      "summary": "Создать склад с методом доставки «Партнёры Ozon»",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/WarehouseERFBSAggregatorCreate"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/warehouse/erfbs/update",
+      "operation_id": "WarehouseERFBSUpdate",
+      "summary": "Обновить склад",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/WarehouseERFBSUpdate"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/warehouse/erfbs/aggregator/delivery-method/update",
+      "operation_id": "WarehouseERFBSAggregatorDeliveryMethodUpdate",
+      "summary": "Обновить метод доставки «Партнёры Ozon»",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/WarehouseERFBSAggregatorDeliveryMethodUpdate"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/warehouse/erfbs/non-integrated/create",
+      "operation_id": "WarehouseERFBSNonIntegratedCreate",
+      "summary": "Создать склад с методом доставки «Вы или сторонняя служба»",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/WarehouseERFBSNonIntegratedCreate"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/warehouse/erfbs/non-integrated/delivery-method/update",
+      "operation_id": "WarehouseERFBSNonIntegratedDeliveryMethodUpdate",
+      "summary": "Обновить метод доставки «Вы или сторонняя служба»",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/WarehouseERFBSNonIntegratedDeliveryMethodUpdate"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/warehouse/rfbs/pause",
+      "operation_id": "WarehouseRfbsPause",
+      "summary": "Поставить rFBS-склад на паузу",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/WarehouseRfbsPause"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/warehouse/rfbs/unpause",
+      "operation_id": "WarehouseRfbsUnpause",
+      "summary": "Снять rFBS-склад с паузы",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/WarehouseRfbsUnpause"
+    },
+    {
+      "method": "POST",
+      "path": "/v4/posting/fbs/unfulfilled/list",
+      "operation_id": "PostingFbsUnfulfilledList",
+      "summary": "Получить список необработанных отправлений",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/PostingFbsUnfulfilledList"
+    },
+    {
+      "method": "POST",
+      "path": "/v3/posting/fbs/unfulfilled/list",
+      "operation_id": "PostingAPI_GetFbsPostingUnfulfilledList",
+      "summary": "Список необработанных отправлений Deprecated",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/PostingAPI_GetFbsPostingUnfulfilledList"
+    },
+    {
+      "method": "POST",
+      "path": "/v4/posting/fbs/list",
+      "operation_id": "PostingFbsList",
+      "summary": "Получить список отправлений",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/PostingFbsList"
+    },
+    {
+      "method": "POST",
+      "path": "/v3/posting/fbs/list",
+      "operation_id": "PostingAPI_GetFbsPostingListV3",
+      "summary": "Список отправлений Deprecated",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/PostingAPI_GetFbsPostingListV3"
+    },
+    {
+      "method": "POST",
+      "path": "/v3/posting/fbs/get",
+      "operation_id": "PostingAPI_GetFbsPostingV3",
+      "summary": "Получить информацию об отправлении по идентификатору",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/PostingAPI_GetFbsPostingV3"
+    },
+    {
+      "method": "POST",
+      "path": "/v2/posting/fbs/get-by-barcode",
+      "operation_id": "PostingAPI_GetFbsPostingByBarcode",
+      "summary": "Получить информацию об отправлении по штрихкоду",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/PostingAPI_GetFbsPostingByBarcode"
+    },
+    {
+      "method": "POST",
+      "path": "/v3/posting/multiboxqty/set",
+      "operation_id": "PostingAPI_PostingMultiBoxQtySetV3",
+      "summary": "Указать количество коробок для многокоробочных отправлений",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/PostingAPI_PostingMultiBoxQtySetV3"
+    },
+    {
+      "method": "POST",
+      "path": "/v2/posting/fbs/product/country/list",
+      "operation_id": "PostingAPI_ListCountryProductFbsPostingV2",
+      "summary": "Список доступных стран-изготовителей",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/PostingAPI_ListCountryProductFbsPostingV2"
+    },
+    {
+      "method": "POST",
+      "path": "/v2/posting/fbs/product/country/set",
+      "operation_id": "PostingAPI_SetCountryProductFbsPostingV2",
+      "summary": "Добавить информацию о стране-изготовителе товара",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/PostingAPI_SetCountryProductFbsPostingV2"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/posting/fbs/restrictions",
+      "operation_id": "PostingAPI_GetRestrictions",
+      "summary": "Получить ограничения пункта приёма",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/PostingAPI_GetRestrictions"
+    },
+    {
+      "method": "POST",
+      "path": "/v2/posting/fbs/package-label",
+      "operation_id": "PostingAPI_PostingFBSPackageLabel",
+      "summary": "Напечатать этикетку Deprecated",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/PostingAPI_PostingFBSPackageLabel"
+    },
+    {
+      "method": "POST",
+      "path": "/v3/posting/fbs/package-label/create",
+      "operation_id": "PostingFbsPackageLabelCreate",
+      "summary": "Создать задание на формирование этикеток",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/PostingFbsPackageLabelCreate"
+    },
+    {
+      "method": "POST",
+      "path": "/v2/posting/fbs/package-label/create",
+      "operation_id": "PostingAPI_CreateLabelBatchV2",
+      "summary": "Создать задание на формирование этикеток Deprecated",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/PostingAPI_CreateLabelBatchV2"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/posting/fbs/package-label/create",
+      "operation_id": "PostingAPI_CreateLabelBatch",
+      "summary": "Создать задание на выгрузку этикеток Deprecated",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/PostingAPI_CreateLabelBatch"
+    },
+    {
+      "method": "POST",
+      "path": "/v2/posting/fbs/package-label/get",
+      "operation_id": "PostingFbsPackageLabelGet",
+      "summary": "Получить файл с этикетками",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/PostingFbsPackageLabelGet"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/posting/fbs/package-label/get",
+      "operation_id": "PostingAPI_GetLabelBatch",
+      "summary": "Получить файл с этикетками Deprecated",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/PostingAPI_GetLabelBatch"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/posting/fbs/cancel-reason",
+      "operation_id": "PostingAPI_GetPostingFbsCancelReasonV1",
+      "summary": "Причины отмены отправления",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/PostingAPI_GetPostingFbsCancelReasonV1"
+    },
+    {
+      "method": "POST",
+      "path": "/v2/posting/fbs/cancel-reason/list",
+      "operation_id": "PostingAPI_GetPostingFbsCancelReasonList",
+      "summary": "Причины отмены отправлений",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/PostingAPI_GetPostingFbsCancelReasonList"
+    },
+    {
+      "method": "POST",
+      "path": "/v2/posting/fbs/product/cancel",
+      "operation_id": "PostingAPI_CancelFbsPostingProduct",
+      "summary": "Отменить отправку некоторых товаров в отправлении",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/PostingAPI_CancelFbsPostingProduct"
+    },
+    {
+      "method": "POST",
+      "path": "/v2/posting/fbs/cancel",
+      "operation_id": "PostingAPI_CancelFbsPosting",
+      "summary": "Отменить отправление",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/PostingAPI_CancelFbsPosting"
+    },
+    {
+      "method": "POST",
+      "path": "/v2/posting/fbs/arbitration",
+      "operation_id": "PostingAPI_MoveFbsPostingToArbitration",
+      "summary": "Открыть спор по отправлению",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/PostingAPI_MoveFbsPostingToArbitration"
+    },
+    {
+      "method": "POST",
+      "path": "/v2/posting/fbs/awaiting-delivery",
+      "operation_id": "PostingAPI_MoveFbsPostingToAwaitingDelivery",
+      "summary": "Передать отправление к отгрузке",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/PostingAPI_MoveFbsPostingToAwaitingDelivery"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/posting/fbs/pick-up-code/verify",
+      "operation_id": "PostingAPI_PostingFBSPickupCodeVerify",
+      "summary": "Проверить код курьера",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/PostingAPI_PostingFBSPickupCodeVerify"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/posting/global/etgb",
+      "operation_id": "PostingAPI_GetEtgb",
+      "summary": "Таможенные декларации ETGB",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/PostingAPI_GetEtgb"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/posting/unpaid-legal/product/list",
+      "operation_id": "PostingAPI_UnpaidLegalProductList",
+      "summary": "Список неоплаченных товаров, заказанных юридическими лицами",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/PostingAPI_UnpaidLegalProductList"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/polygon/create",
+      "operation_id": "PolygonAPI_CreatePolygon",
+      "summary": "Создайте полигон доставки",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/PolygonAPI_CreatePolygon"
+    },
+    {
+      "method": "POST",
+      "path": "/v2/polygon/bind",
+      "operation_id": "PolygonBind",
+      "summary": "Связать метод доставки с полигоном",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/PolygonBind"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/polygon/bind",
+      "operation_id": "PolygonAPI_BindPolygon",
+      "summary": "Свяжите метод доставки с полигоном доставки",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/PolygonAPI_BindPolygon"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/polygon/delete",
+      "operation_id": "PolygonDelete",
+      "summary": "Удалить полигон из области доставки",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/PolygonDelete"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/polygon/list",
+      "operation_id": "PolygonList",
+      "summary": "Получить список установленных полигонов на метод доставки",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/PolygonList"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/polygon/time/coordinates/update",
+      "operation_id": "PolygonTimeCoordinatesUpdate",
+      "summary": "Обновить координаты полигона доставки",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/PolygonTimeCoordinatesUpdate"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/polygon/time/set",
+      "operation_id": "PolygonTimeSet",
+      "summary": "Установить новое время доставки в полигоне",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/PolygonTimeSet"
+    },
+    {
+      "method": "POST",
+      "path": "/v3/posting/fbo/list",
+      "operation_id": "PostingFboList",
+      "summary": "Получить список отправлений",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/PostingFboList"
+    },
+    {
+      "method": "POST",
+      "path": "/v2/posting/fbo/list",
+      "operation_id": "PostingAPI_GetFboPostingList",
+      "summary": "Список отправлений Deprecated",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/PostingAPI_GetFboPostingList"
+    },
+    {
+      "method": "POST",
+      "path": "/v2/posting/fbo/get",
+      "operation_id": "PostingAPI_GetFboPosting",
+      "summary": "Информация об отправлении",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/PostingAPI_GetFboPosting"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/posting/fbo/cancel-reason/list",
+      "operation_id": "PostingAPI_GetPostingFboCancelReasonList",
+      "summary": "Причины отмены отправлений по схеме FBO",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/PostingAPI_GetPostingFboCancelReasonList"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/supply-order/status/counter",
+      "operation_id": "SupplyOrderAPI_SupplyOrderStatusCounter",
+      "summary": "Количество заявок по статусам",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/SupplyOrderAPI_SupplyOrderStatusCounter"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/supply-order/bundle",
+      "operation_id": "SupplyOrderBundle",
+      "summary": "Состав поставки или заявки на поставку",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/SupplyOrderBundle"
+    },
+    {
+      "method": "POST",
+      "path": "/v3/supply-order/list",
+      "operation_id": "SupplyOrderList",
+      "summary": "Список заявок на поставку на склад Ozon",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/SupplyOrderList"
+    },
+    {
+      "method": "POST",
+      "path": "/v3/supply-order/get",
+      "operation_id": "SupplyOrderGet",
+      "summary": "Информация о заявке на поставку",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/SupplyOrderGet"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/supply-order/timeslot/get",
+      "operation_id": "SupplyOrderAPI_GetSupplyOrderTimeslots",
+      "summary": "Интервалы поставки",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/SupplyOrderAPI_GetSupplyOrderTimeslots"
+    },
+    {
+      "method": "POST",
+      "path": "/v2/supply-order/timeslot/list",
+      "operation_id": "SupplyOrderTimeslotList",
+      "summary": "Получить список доступных интервалов поставки",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/SupplyOrderTimeslotList"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/supply-order/timeslot/update",
+      "operation_id": "SupplyOrderAPI_UpdateSupplyOrderTimeslot",
+      "summary": "Обновить интервал поставки",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/SupplyOrderAPI_UpdateSupplyOrderTimeslot"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/supply-order/timeslot/status",
+      "operation_id": "SupplyOrderAPI_GetSupplyOrderTimeslotStatus",
+      "summary": "Статус интервала поставки",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/SupplyOrderAPI_GetSupplyOrderTimeslotStatus"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/supply-order/pass/create",
+      "operation_id": "SupplyOrderAPI_SupplyOrderPassCreate",
+      "summary": "Указать данные о водителе и автомобиле",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/SupplyOrderAPI_SupplyOrderPassCreate"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/supply-order/pass/status",
+      "operation_id": "SupplyOrderAPI_SupplyOrderPassStatus",
+      "summary": "Статус ввода данных о водителе и автомобиле",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/SupplyOrderAPI_SupplyOrderPassStatus"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/supply-order/details",
+      "operation_id": "SupplyOrderAPI_SupplyOrderDetails",
+      "summary": "Получить подробную информацию о заявке на поставку",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/SupplyOrderAPI_SupplyOrderDetails"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/supplier/available_warehouses",
+      "operation_id": "SupplierAPI_SupplierAvailableWarehouses",
+      "summary": "Загруженность складов Ozon",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/SupplierAPI_SupplierAvailableWarehouses"
+    },
+    {
+      "method": "POST",
+      "path": "/v2/cluster/list",
+      "operation_id": "DraftClusterList",
+      "summary": "Получить информацию о макролокальных кластерах",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/DraftClusterList"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/cluster/list",
+      "operation_id": "SupplyDraftAPI_DraftClusterList",
+      "summary": "Информация о кластерах и их складах",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/SupplyDraftAPI_DraftClusterList"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/warehouse/fbo/list",
+      "operation_id": "SupplyDraftAPI_DraftGetWarehouseFboList",
+      "summary": "Поиск точек для отгрузки поставки",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/SupplyDraftAPI_DraftGetWarehouseFboList"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/draft/crossdock/create",
+      "operation_id": "DraftCrossdockCreate",
+      "summary": "Создать черновик заявки на поставку кросс-докингом",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/DraftCrossdockCreate"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/draft/direct/create",
+      "operation_id": "DraftDirectCreate",
+      "summary": "Создать черновик заявки на прямую поставку",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/DraftDirectCreate"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/draft/multi-cluster/create",
+      "operation_id": "DraftMultiClusterCreate",
+      "summary": "Создать черновик заявки на поставку для нескольких кластеров",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/DraftMultiClusterCreate"
+    },
+    {
+      "method": "POST",
+      "path": "/v2/draft/create/info",
+      "operation_id": "DraftCreateInfo",
+      "summary": "Получить информацию о черновике заявки на поставку",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/DraftCreateInfo"
+    },
+    {
+      "method": "POST",
+      "path": "/v2/draft/timeslot/info",
+      "operation_id": "DraftTimeslotInfo",
+      "summary": "Получить список доступных таймслотов",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/DraftTimeslotInfo"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/cargoes/create",
+      "operation_id": "CargoesAPI_CargoesCreate",
+      "summary": "Установка грузомест",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/CargoesAPI_CargoesCreate"
+    },
+    {
+      "method": "POST",
+      "path": "/v2/cargoes/create/info",
+      "operation_id": "CargoesCreateInfoV2",
+      "summary": "Получить информацию по установке грузомест",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/CargoesCreateInfoV2"
+    },
+    {
+      "method": "POST",
+      "path": "/v2/cargoes/get",
+      "operation_id": "CargoesGetV2",
+      "summary": "Получить информацию о грузоместах",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/CargoesGetV2"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/cargoes/get",
+      "operation_id": "CargoesGet",
+      "summary": "Получить информацию о грузоместах",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/CargoesGet"
+    },
+    {
+      "method": "POST",
+      "path": "/v2/cargoes/delete",
+      "operation_id": "CargoesDeleteV2",
+      "summary": "Удалить грузоместа и транспортные грузоместа в заявке на поставку",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/CargoesDeleteV2"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/cargoes/delete",
+      "operation_id": "CargoesAPI_CargoesDelete",
+      "summary": "Удалить грузоместо в заявке на поставку",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/CargoesAPI_CargoesDelete"
+    },
+    {
+      "method": "POST",
+      "path": "/v2/cargoes/delete/status",
+      "operation_id": "CargoesDeleteStatusV2",
+      "summary": "Получить информацию о статусе удаления грузомест и транспортных грузомест",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/CargoesDeleteStatusV2"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/cargoes/delete/status",
+      "operation_id": "CargoesAPI_CargoesDeleteStatus",
+      "summary": "Информация о статусе удаления грузоместа",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/CargoesAPI_CargoesDeleteStatus"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/cargoes/rules/get",
+      "operation_id": "CargoesAPI_CargoesRulesGet",
+      "summary": "Чек-лист по установке грузомест FBO",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/CargoesAPI_CargoesRulesGet"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/cargoes-label/create",
+      "operation_id": "CargoesAPI_CargoesLabelCreate",
+      "summary": "Сгенерировать этикетки для грузомест",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/CargoesAPI_CargoesLabelCreate"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/cargoes-label/get",
+      "operation_id": "CargoesAPI_CargoesLabelGet",
+      "summary": "Получить идентификатор этикетки для грузомест",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/CargoesAPI_CargoesLabelGet"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/supply-order/cancel",
+      "operation_id": "SupplyOrderAPI_SupplyOrderCancel",
+      "summary": "Отменить заявку на поставку",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/SupplyOrderAPI_SupplyOrderCancel"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/supply-order/cancel/status",
+      "operation_id": "SupplyOrderAPI_SupplyOrderCancelStatus",
+      "summary": "Получить статус отмены заявки на поставку",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/SupplyOrderAPI_SupplyOrderCancelStatus"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/supply-order/content/update",
+      "operation_id": "SupplyOrderAPI_SupplyOrderContentUpdate",
+      "summary": "Редактирование товарного состава",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/SupplyOrderAPI_SupplyOrderContentUpdate"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/supply-order/content/update/status",
+      "operation_id": "SupplyOrderAPI_SupplyOrderContentUpdateStatus",
+      "summary": "Информация о статусе редактирования товарного состава",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/SupplyOrderAPI_SupplyOrderContentUpdateStatus"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/supply-order/content/update/validation",
+      "operation_id": "SupplyOrderContentUpdateValidation",
+      "summary": "Проверить новый товарный состав",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/SupplyOrderContentUpdateValidation"
+    },
+    {
+      "method": "POST",
+      "path": "/v2/draft/supply/create",
+      "operation_id": "DraftSupplyCreate",
+      "summary": "Создать заявку на поставку по черновику",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/DraftSupplyCreate"
+    },
+    {
+      "method": "POST",
+      "path": "/v2/draft/supply/create/status",
+      "operation_id": "DraftSupplyCreateStatus",
+      "summary": "Получить информацию о создании заявки на поставку",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/DraftSupplyCreateStatus"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/warehouse/fbo/seller/list",
+      "operation_id": "WarehouseFboSellerList",
+      "summary": "Получить список складов продавца",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/WarehouseFboSellerList"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/cargoes/transport/activate",
+      "operation_id": "CargoesTransportActivate",
+      "summary": "Включить или отключить транспортные грузоместа в поставке",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/CargoesTransportActivate"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/cargoes/transport/activate/status",
+      "operation_id": "CargoesTransportActivateStatus",
+      "summary": "Получить статус включения или отключения транспортных грузомест",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/CargoesTransportActivateStatus"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/cargoes/transport/create",
+      "operation_id": "CargoesTransportCreate",
+      "summary": "Создать транспортное грузоместо",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/CargoesTransportCreate"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/cargoes/transport/create/status",
+      "operation_id": "CargoesTransportCreateStatus",
+      "summary": "Получить статус создания транспортного грузоместа",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/CargoesTransportCreateStatus"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/cargoes/transport/bind",
+      "operation_id": "CargoesTransportBind",
+      "summary": "Связать или отвязать грузоместа и транспортные грузоместа",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/CargoesTransportBind"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/cargoes/transport/bind/status",
+      "operation_id": "CargoesTransportBindStatus",
+      "summary": "Получить статус связывания или отвязывания грузомест и транспортных грузомест",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/CargoesTransportBindStatus"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/cargoes/supplies/get",
+      "operation_id": "CargoesSuppliesGet",
+      "summary": "Получить информацию о грузоместах в поставках",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/CargoesSuppliesGet"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/cargoes/label/transport-by-order/create",
+      "operation_id": "CargoesLabelTransportByOrderCreate",
+      "summary": "Сгенерировать этикетки для транспортных грузомест по идентификатору поставки",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/CargoesLabelTransportByOrderCreate"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/cargoes/label/transport-by-order/status",
+      "operation_id": "CargoesLabelTransportByOrderStatus",
+      "summary": "Получить статус генерации этикеток для транспортных грузомеcт по идентификатору поставки",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/CargoesLabelTransportByOrderStatus"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/cargoes/label/transport/create",
+      "operation_id": "CargoesLabelTransportCreate",
+      "summary": "Сгенерировать этикетки транспортных грузомест по идентификатору грузоместа",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/CargoesLabelTransportCreate"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/cargoes/label/transport/status",
+      "operation_id": "CargoesLabelTransportStatus",
+      "summary": "Получить статус генерации этикеток транспортных грузомест по идентификатору грузоместа",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/CargoesLabelTransportStatus"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/supply-order/act/summary/get",
+      "operation_id": "SupplyOrderActSummaryGet",
+      "summary": "Получить информацию об акте",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/SupplyOrderActSummaryGet"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/supply-order/act/product/get",
+      "operation_id": "SupplyOrderActProductGet",
+      "summary": "Получить информацию о товарах в акте",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/SupplyOrderActProductGet"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/supply-order/act/accept",
+      "operation_id": "SupplyOrderActAccept",
+      "summary": "Согласовать акт",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/SupplyOrderActAccept"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/supply-order/act/accept/status",
+      "operation_id": "SupplyOrderActAcceptStatus",
+      "summary": "Получить статус согласования акта",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/SupplyOrderActAcceptStatus"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/warehouse/ozon/list",
+      "operation_id": "WarehouseOZONList",
+      "summary": "Получить список складов Ozon",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/WarehouseOZONList"
+    },
+    {
+      "method": "POST",
+      "path": "/v4/posting/fbs/ship",
+      "operation_id": "PostingAPI_ShipFbsPostingV4",
+      "summary": "Собрать заказ (версия 4)",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/PostingAPI_ShipFbsPostingV4"
+    },
+    {
+      "method": "POST",
+      "path": "/v4/posting/fbs/ship/package",
+      "operation_id": "PostingAPI_ShipFbsPostingPackage",
+      "summary": "Частичная сборка отправления (версия 4)",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/PostingAPI_ShipFbsPostingPackage"
+    },
+    {
+      "method": "POST",
+      "path": "/v6/fbs/posting/product/exemplar/set",
+      "operation_id": "PostingAPI_FbsPostingProductExemplarSetV6",
+      "summary": "Проверить и сохранить данные экземпляров",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/PostingAPI_FbsPostingProductExemplarSetV6"
+    },
+    {
+      "method": "POST",
+      "path": "/v6/fbs/posting/product/exemplar/create-or-get",
+      "operation_id": "PostingAPI_FbsPostingProductExemplarCreateOrGetV6",
+      "summary": "Получить данные созданных экземпляров",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/PostingAPI_FbsPostingProductExemplarCreateOrGetV6"
+    },
+    {
+      "method": "POST",
+      "path": "/v5/fbs/posting/product/exemplar/status",
+      "operation_id": "PostingAPI_FbsPostingProductExemplarStatusV5",
+      "summary": "Получить статус добавления экземпляров",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/PostingAPI_FbsPostingProductExemplarStatusV5"
+    },
+    {
+      "method": "POST",
+      "path": "/v5/fbs/posting/product/exemplar/validate",
+      "operation_id": "PostingAPI_FbsPostingProductExemplarValidateV5",
+      "summary": "Валидация кодов маркировки",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/PostingAPI_FbsPostingProductExemplarValidateV5"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/fbs/posting/product/exemplar/update",
+      "operation_id": "PostingAPI_FbsPostingProductExemplarUpdate",
+      "summary": "Обновить данные экземпляров",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/PostingAPI_FbsPostingProductExemplarUpdate"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/carriage/create",
+      "operation_id": "CarriageAPI_CarriageCreate",
+      "summary": "Создание отгрузки",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/CarriageAPI_CarriageCreate"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/carriage/approve",
+      "operation_id": "CarriageAPI_CarriageApprove",
+      "summary": "Подтверждение отгрузки",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/CarriageAPI_CarriageApprove"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/carriage/set-postings",
+      "operation_id": "CarriageAPI_SetPostings",
+      "summary": "Изменение состава отгрузки",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/CarriageAPI_SetPostings"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/carriage/cancel",
+      "operation_id": "CarriageAPI_CarriageCancel",
+      "summary": "Удаление отгрузки",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/CarriageAPI_CarriageCancel"
+    },
+    {
+      "method": "POST",
+      "path": "/v2/carriage/delivery/list",
+      "operation_id": "CarriageAPI_CarriageDeliveryListV2",
+      "summary": "Список методов доставки и отгрузок",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/CarriageAPI_CarriageDeliveryListV2"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/carriage/delivery/list",
+      "operation_id": "CarriageAPI_CarriageDeliveryList",
+      "summary": "Список методов доставки и отгрузок",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/CarriageAPI_CarriageDeliveryList"
+    },
+    {
+      "method": "POST",
+      "path": "/v2/posting/fbs/act/create",
+      "operation_id": "PostingAPI_PostingFBSActCreate",
+      "summary": "Подтвердить отгрузку и создать документы",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/PostingAPI_PostingFBSActCreate"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/posting/carriage-available/list",
+      "operation_id": "PostingAPI_GetCarriageAvailableList",
+      "summary": "Список доступных перевозок",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/PostingAPI_GetCarriageAvailableList"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/carriage/get",
+      "operation_id": "CarriageGet",
+      "summary": "Информация о перевозке",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/CarriageGet"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/carriage/courier-contact/set",
+      "operation_id": "CarriageCourierContactSet",
+      "summary": "Добавить или обновить контактные данные продавца для курьера",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/CarriageCourierContactSet"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/carriage/courier-contact/get",
+      "operation_id": "CarriageCourierContactGet",
+      "summary": "Получить контактные данные продавца для курьера",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/CarriageCourierContactGet"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/posting/fbs/split",
+      "operation_id": "FbsSplit",
+      "summary": "Разделить заказ на отправления без сборки",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/FbsSplit"
+    },
+    {
+      "method": "POST",
+      "path": "/v2/posting/fbs/act/get-postings",
+      "operation_id": "PostingAPI_ActPostingList",
+      "summary": "Список отправлений в акте",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/PostingAPI_ActPostingList"
+    },
+    {
+      "method": "POST",
+      "path": "/v2/posting/fbs/act/get-container-labels",
+      "operation_id": "PostingAPI_PostingFBSActGetContainerLabels",
+      "summary": "Этикетки для грузового места",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/PostingAPI_PostingFBSActGetContainerLabels"
+    },
+    {
+      "method": "POST",
+      "path": "/v2/posting/fbs/act/get-barcode",
+      "operation_id": "PostingAPI_PostingFBSGetBarcode",
+      "summary": "Штрихкод для отгрузки отправления",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/PostingAPI_PostingFBSGetBarcode"
+    },
+    {
+      "method": "POST",
+      "path": "/v2/posting/fbs/act/get-barcode/text",
+      "operation_id": "PostingAPI_PostingFBSGetBarcodeText",
+      "summary": "Значение штрихкода для отгрузки отправления",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/PostingAPI_PostingFBSGetBarcodeText"
+    },
+    {
+      "method": "POST",
+      "path": "/v2/posting/fbs/digital/act/check-status",
+      "operation_id": "PostingAPI_PostingFBSDigitalActCheckStatus",
+      "summary": "Статус формирования накладной Deprecated",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/PostingAPI_PostingFBSDigitalActCheckStatus"
+    },
+    {
+      "method": "POST",
+      "path": "/v2/posting/fbs/act/get-pdf",
+      "operation_id": "PostingAPI_PostingFBSGetAct",
+      "summary": "Получить PDF c документами",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/PostingAPI_PostingFBSGetAct"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/carriage/act-discrepancy/pdf",
+      "operation_id": "CarriageActDiscrepancyPDF",
+      "summary": "Получить акт о расхождениях по отгрузке FBS",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/CarriageActDiscrepancyPDF"
+    },
+    {
+      "method": "POST",
+      "path": "/v2/posting/fbs/act/list",
+      "operation_id": "PostingAPI_FbsActList",
+      "summary": "Список актов по отгрузкам",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/PostingAPI_FbsActList"
+    },
+    {
+      "method": "POST",
+      "path": "/v2/posting/fbs/digital/act/get-pdf",
+      "operation_id": "PostingAPI_PostingFBSGetDigitalAct",
+      "summary": "Получить лист отгрузки по перевозке Deprecated",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/PostingAPI_PostingFBSGetDigitalAct"
+    },
+    {
+      "method": "POST",
+      "path": "/v2/posting/fbs/act/check-status",
+      "operation_id": "PostingAPI_PostingFBSActCheckStatus",
+      "summary": "Статус отгрузки и документов",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/PostingAPI_PostingFBSActCheckStatus"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/posting/fbs/traceable/split",
+      "operation_id": "PostingFbsTraceableSplit",
+      "summary": "Разделить отправление с прослеживаемыми товарами",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/PostingFbsTraceableSplit"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/posting/fbs/product/traceable/attribute",
+      "operation_id": "PostingFbsProductTraceableAttribute",
+      "summary": "Получить список незаполненных атрибутов для прослеживаемых товаров",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/PostingFbsProductTraceableAttribute"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/carriage/ettn/status",
+      "operation_id": "CarriageEttnStatus",
+      "summary": "Получить статус проверки электронной ТТН на прослеживаемой перевозке FBS",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/CarriageEttnStatus"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/assembly/carriage/posting/list",
+      "operation_id": "AssemblyCarriagePostingList",
+      "summary": "Получить список отправлений в отгрузке",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/AssemblyCarriagePostingList"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/assembly/carriage/product/list",
+      "operation_id": "AssemblyCarriageProductList",
+      "summary": "Получить список товаров в отгрузке",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/AssemblyCarriageProductList"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/assembly/fbs/posting/list",
+      "operation_id": "AssemblyFbsPostingList",
+      "summary": "Получить список отправлений",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/AssemblyFbsPostingList"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/assembly/fbs/product/list",
+      "operation_id": "AssemblyFbsProductList",
+      "summary": "Получить список товаров в отправлениях",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/AssemblyFbsProductList"
+    },
+    {
+      "method": "POST",
+      "path": "/v2/fbs/posting/tracking-number/set",
+      "operation_id": "PostingAPI_FbsPostingTrackingNumberSet",
+      "summary": "Добавить трек-номера",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/PostingAPI_FbsPostingTrackingNumberSet"
+    },
+    {
+      "method": "POST",
+      "path": "/v2/fbs/posting/delivering",
+      "operation_id": "PostingAPI_FbsPostingDelivering",
+      "summary": "Изменить статус на «Доставляется»",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/PostingAPI_FbsPostingDelivering"
+    },
+    {
+      "method": "POST",
+      "path": "/v2/fbs/posting/last-mile",
+      "operation_id": "PostingAPI_FbsPostingLastMile",
+      "summary": "Изменить статус на «Последняя миля»",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/PostingAPI_FbsPostingLastMile"
+    },
+    {
+      "method": "POST",
+      "path": "/v2/fbs/posting/delivered",
+      "operation_id": "PostingAPI_FbsPostingDelivered",
+      "summary": "Изменить статус на «Доставлено»",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/PostingAPI_FbsPostingDelivered"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/posting/fbs/timeslot/change-restrictions",
+      "operation_id": "PostingAPI_PostingTimeslotChangeRestrictions",
+      "summary": "Доступные даты для переноса доставки",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/PostingAPI_PostingTimeslotChangeRestrictions"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/posting/fbs/timeslot/set",
+      "operation_id": "PostingAPI_SetPostingTimeslot",
+      "summary": "Перенести дату доставки",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/PostingAPI_SetPostingTimeslot"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/posting/cutoff/set",
+      "operation_id": "PostingAPI_SetPostingCutoff",
+      "summary": "Уточнить дату отгрузки отправления",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/PostingAPI_SetPostingCutoff"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/pass/list",
+      "operation_id": "PassList",
+      "summary": "Список пропусков",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/PassList"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/carriage/pass/create",
+      "operation_id": "carriagePassCreate",
+      "summary": "Создать пропуск",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/carriagePassCreate"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/carriage/pass/update",
+      "operation_id": "carriagePassUpdate",
+      "summary": "Обновить пропуск",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/carriagePassUpdate"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/carriage/pass/delete",
+      "operation_id": "carriagePassDelete",
+      "summary": "Удалить пропуск",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/carriagePassDelete"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/return/pass/create",
+      "operation_id": "returnPassCreate",
+      "summary": "Создать пропуск для возврата",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/returnPassCreate"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/return/pass/update",
+      "operation_id": "returnPassUpdate",
+      "summary": "Обновить пропуск для возврата",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/returnPassUpdate"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/return/pass/delete",
+      "operation_id": "returnPassDelete",
+      "summary": "Удалить пропуск для возврата",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/returnPassDelete"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/returns/list",
+      "operation_id": "returnsList",
+      "summary": "Информация о возвратах FBO и FBS",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/returnsList"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/returns/settings/utilization/history",
+      "operation_id": "UtilizationHistory",
+      "summary": "Получить историю изменений автоутилизации",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/UtilizationHistory"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/returns/settings/utilization/info",
+      "operation_id": "UtilizationInfo",
+      "summary": "Получить настройки автоутилизации",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/UtilizationInfo"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/returns/settings/utilization/update",
+      "operation_id": "UtilizationUpdate",
+      "summary": "Обновить настройки автоутилизации",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/UtilizationUpdate"
+    },
+    {
+      "method": "POST",
+      "path": "/v2/returns/rfbs/list",
+      "operation_id": "RFBSReturnsAPI_ReturnsRfbsListV2",
+      "summary": "Список заявок на возврат",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/RFBSReturnsAPI_ReturnsRfbsListV2"
+    },
+    {
+      "method": "POST",
+      "path": "/v2/returns/rfbs/get",
+      "operation_id": "RFBSReturnsAPI_ReturnsRfbsGetV2",
+      "summary": "Информация о заявке на возврат",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/RFBSReturnsAPI_ReturnsRfbsGetV2"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/returns/rfbs/action/set",
+      "operation_id": "ReturnsAPI_ReturnsRfbsActionSet",
+      "summary": "Передать доступные действия для rFBS возвратов",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ReturnsAPI_ReturnsRfbsActionSet"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/returns/company/fbs/info",
+      "operation_id": "returnsCompanyFBSInfo",
+      "summary": "Количество возвратов FBS",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/returnsCompanyFBSInfo"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/return/giveout/is-enabled",
+      "operation_id": "ReturnAPI_GiveoutIsEnabled",
+      "summary": "Проверить возможность получения возвратных отгрузок по штрихкоду",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ReturnAPI_GiveoutIsEnabled"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/return/giveout/list",
+      "operation_id": "ReturnAPI_GiveoutList",
+      "summary": "Список возвратных отгрузок",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ReturnAPI_GiveoutList"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/return/giveout/info",
+      "operation_id": "ReturnAPI_GiveoutInfo",
+      "summary": "Информация о возвратной отгрузке",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ReturnAPI_GiveoutInfo"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/return/giveout/barcode",
+      "operation_id": "ReturnAPI_GiveoutGetBarcode",
+      "summary": "Значение штрихкода для возвратных отгрузок",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ReturnAPI_GiveoutGetBarcode"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/return/giveout/get-pdf",
+      "operation_id": "ReturnAPI_GiveoutGetPDF",
+      "summary": "Штрихкод для получения возвратной отгрузки в формате PDF",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ReturnAPI_GiveoutGetPDF"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/return/giveout/get-png",
+      "operation_id": "ReturnAPI_GiveoutGetPNG",
+      "summary": "Штрихкод для получения возвратной отгрузки в формате PNG",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ReturnAPI_GiveoutGetPNG"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/return/giveout/barcode-reset",
+      "operation_id": "ReturnAPI_GiveoutBarcodeReset",
+      "summary": "Сгенерировать новый штрихкод",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ReturnAPI_GiveoutBarcodeReset"
+    },
+    {
+      "method": "POST",
+      "path": "/v2/conditional-cancellation/list",
+      "operation_id": "CancellationAPI_GetConditionalCancellationListV2",
+      "summary": "Получить список заявок на отмену rFBS",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/CancellationAPI_GetConditionalCancellationListV2"
+    },
+    {
+      "method": "POST",
+      "path": "/v2/conditional-cancellation/approve",
+      "operation_id": "CancellationAPI_ConditionalCancellationApproveV2",
+      "summary": "Подтвердить заявку на отмену rFBS",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/CancellationAPI_ConditionalCancellationApproveV2"
+    },
+    {
+      "method": "POST",
+      "path": "/v2/conditional-cancellation/reject",
+      "operation_id": "CancellationAPI_ConditionalCancellationRejectV2",
+      "summary": "Отклонить заявку на отмену rFBS",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/CancellationAPI_ConditionalCancellationRejectV2"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/chat/send/file",
+      "operation_id": "ChatAPI_ChatSendFile",
+      "summary": "Отправить файл",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ChatAPI_ChatSendFile"
+    },
+    {
+      "method": "POST",
+      "path": "/v3/chat/list",
+      "operation_id": "ChatAPI_ChatListV3",
+      "summary": "Список чатов",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ChatAPI_ChatListV3"
+    },
+    {
+      "method": "POST",
+      "path": "/v3/chat/history",
+      "operation_id": "ChatAPI_ChatHistoryV3",
+      "summary": "История чата",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ChatAPI_ChatHistoryV3"
+    },
+    {
+      "method": "POST",
+      "path": "/v2/invoice/create-or-update",
+      "operation_id": "InvoiceAPI_InvoiceCreateOrUpdateV2",
+      "summary": "Создать или изменить счёт-фактуру",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/InvoiceAPI_InvoiceCreateOrUpdateV2"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/invoice/file/upload",
+      "operation_id": "invoice_upload",
+      "summary": "Загрузка счёта-фактуры",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/invoice_upload"
+    },
+    {
+      "method": "POST",
+      "path": "/v2/invoice/get",
+      "operation_id": "invoice_getV2",
+      "summary": "Получить информацию о счёте-фактуре",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/invoice_getV2"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/invoice/delete",
+      "operation_id": "invoice_delete",
+      "summary": "Удалить ссылку на счёт-фактуру",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/invoice_delete"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/report/info",
+      "operation_id": "ReportAPI_ReportInfo",
+      "summary": "Информация об отчёте",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ReportAPI_ReportInfo"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/report/list",
+      "operation_id": "ReportAPI_ReportList",
+      "summary": "Список отчётов",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ReportAPI_ReportList"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/report/products/create",
+      "operation_id": "ReportAPI_CreateCompanyProductsReport",
+      "summary": "Отчёт по товарам",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ReportAPI_CreateCompanyProductsReport"
+    },
+    {
+      "method": "POST",
+      "path": "/v2/report/returns/create",
+      "operation_id": "ReportAPI_ReportReturnsCreate",
+      "summary": "Отчёт о возвратах",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ReportAPI_ReportReturnsCreate"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/report/postings/create",
+      "operation_id": "ReportAPI_CreateCompanyPostingsReport",
+      "summary": "Отчёт об отправлениях",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ReportAPI_CreateCompanyPostingsReport"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/finance/cash-flow-statement/list",
+      "operation_id": "FinanceAPI_FinanceCashFlowStatementList",
+      "summary": "Финансовый отчёт",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/FinanceAPI_FinanceCashFlowStatementList"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/report/discounted/create",
+      "operation_id": "ReportAPI_CreateDiscountedReport",
+      "summary": "Отчёт об уценённых товарах",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ReportAPI_CreateDiscountedReport"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/report/warehouse/stock",
+      "operation_id": "ReportAPI_CreateStockByWarehouseReport",
+      "summary": "Отчёт об остатках на FBS-складе",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ReportAPI_CreateStockByWarehouseReport"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/report/placement/by-products/create",
+      "operation_id": "CreatePlacementByProductsReport",
+      "summary": "Получить отчёт о стоимости размещения по товарам",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/CreatePlacementByProductsReport"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/report/placement/by-supplies/create",
+      "operation_id": "CreatePlacementBySuppliesReport",
+      "summary": "Получить отчёт о стоимости размещения по поставкам",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/CreatePlacementBySuppliesReport"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/report/marked-products-sales/create",
+      "operation_id": "CreateCompanyMarkedProductsSalesReport",
+      "summary": "Сгенерировать отчёт по продажам товаров с маркировкой",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/CreateCompanyMarkedProductsSalesReport"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/report/realization/posting/create",
+      "operation_id": "CreateCompanyFinanceRealizationPostingReport",
+      "summary": "Получить позаказный отчёт о реализации товаров Deprecated",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/CreateCompanyFinanceRealizationPostingReport"
+    },
+    {
+      "method": "POST",
+      "path": "/v2/analytics/stock_on_warehouses",
+      "operation_id": "AnalyticsAPI_AnalyticsGetStockOnWarehousesV2",
+      "summary": "Отчёт по остаткам и товарам",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/AnalyticsAPI_AnalyticsGetStockOnWarehousesV2"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/analytics/turnover/stocks",
+      "operation_id": "AnalyticsAPI_StocksTurnover",
+      "summary": "Оборачиваемость товара",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/AnalyticsAPI_StocksTurnover"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/analytics/stocks",
+      "operation_id": "AnalyticsAPI_AnalyticsStocks",
+      "summary": "Получить аналитику по остаткам",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/AnalyticsAPI_AnalyticsStocks"
+    },
+    {
+      "method": "POST",
+      "path": "/v2/finance/realization",
+      "operation_id": "FinanceAPI_GetRealizationReportV2",
+      "summary": "Отчёт о реализации товаров (версия 2) Deprecated",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/FinanceAPI_GetRealizationReportV2"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/finance/realization/posting",
+      "operation_id": "FinanceAPI_GetRealizationReportV1",
+      "summary": "Позаказный отчёт о реализации товаров Deprecated",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/FinanceAPI_GetRealizationReportV1"
+    },
+    {
+      "method": "POST",
+      "path": "/v3/finance/transaction/list",
+      "operation_id": "FinanceAPI_FinanceTransactionListV3",
+      "summary": "Список транзакций",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/FinanceAPI_FinanceTransactionListV3"
+    },
+    {
+      "method": "POST",
+      "path": "/v3/finance/transaction/totals",
+      "operation_id": "FinanceAPI_FinanceTransactionTotalV3",
+      "summary": "Суммы транзакций",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/FinanceAPI_FinanceTransactionTotalV3"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/finance/document-b2b-sales",
+      "operation_id": "ReportAPI_CreateDocumentB2BSalesReport",
+      "summary": "Реестр продаж юридическим лицам",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ReportAPI_CreateDocumentB2BSalesReport"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/finance/document-b2b-sales/json",
+      "operation_id": "ReportAPI_CreateDocumentB2BSalesJSONReport",
+      "summary": "Реестр продаж юридическим лицам в JSON-формате",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ReportAPI_CreateDocumentB2BSalesJSONReport"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/finance/mutual-settlement",
+      "operation_id": "ReportAPI_CreateMutualSettlementReport",
+      "summary": "Отчёт о взаиморасчётах",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ReportAPI_CreateMutualSettlementReport"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/finance/products/buyout",
+      "operation_id": "GetFinanceProductsBuyout",
+      "summary": "Отчёт о выкупленных товарах",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/GetFinanceProductsBuyout"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/finance/compensation",
+      "operation_id": "ReportAPI_GetCompensationReport",
+      "summary": "Отчёт о компенсациях",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ReportAPI_GetCompensationReport"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/finance/decompensation",
+      "operation_id": "ReportAPI_GetDecompensationReport",
+      "summary": "Отчёт о декомпенсациях",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ReportAPI_GetDecompensationReport"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/receipts/get",
+      "operation_id": "GetReceipt",
+      "summary": "Получить чек в формате PDF",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/GetReceipt"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/receipts/seller/list",
+      "operation_id": "ReceiptsSellerList",
+      "summary": "Получить список чеков продавца",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ReceiptsSellerList"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/receipts/upload",
+      "operation_id": "UploadReceipt",
+      "summary": "Загрузить чек",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/UploadReceipt"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/rating/summary",
+      "operation_id": "RatingAPI_RatingSummaryV1",
+      "summary": "Получить информацию о текущих рейтингах продавца",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/RatingAPI_RatingSummaryV1"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/rating/history",
+      "operation_id": "RatingAPI_RatingHistoryV1",
+      "summary": "Получить информацию о рейтингах продавца за период",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/RatingAPI_RatingHistoryV1"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/rating/index/fbs/info",
+      "operation_id": "RatingAPI_GetFBSRatingIndexInfoV1",
+      "summary": "Получить индекс ошибок FBS и rFBS",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/RatingAPI_GetFBSRatingIndexInfoV1"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/rating/index/fbs/posting/list",
+      "operation_id": "RatingAPI_ListFBSRatingIndexPostingsV1",
+      "summary": "Список отправлений, которые повлияли на индекс ошибок FBS и rFBS",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/RatingAPI_ListFBSRatingIndexPostingsV1"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/posting/digital/codes/upload",
+      "operation_id": "UploadPostingCodes",
+      "summary": "Загрузить коды цифровых товаров для отправления",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/UploadPostingCodes"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/posting/digital/list",
+      "operation_id": "ListPostingCodes",
+      "summary": "Получить список отправлений Deprecated",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ListPostingCodes"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/product/digital/stocks/import",
+      "operation_id": "DigitalProductAPI_StocksImport",
+      "summary": "Обновить количество цифровых товаров",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/DigitalProductAPI_StocksImport"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/review/comment/create",
+      "operation_id": "ReviewAPI_CommentCreate",
+      "summary": "Оставить комментарий на отзыв",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ReviewAPI_CommentCreate"
+    },
+    {
+      "method": "POST",
+      "path": "/v2/review/comment/delete",
+      "operation_id": "ReviewCommentDeleteV2",
+      "summary": "Удалить комментарий на отзыв",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ReviewCommentDeleteV2"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/review/comment/delete",
+      "operation_id": "ReviewAPI_CommentDelete",
+      "summary": "Удалить комментарий на отзыв Deprecated",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ReviewAPI_CommentDelete"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/review/comment/list",
+      "operation_id": "ReviewAPI_CommentList",
+      "summary": "Получить список комментариев на отзыв",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ReviewAPI_CommentList"
+    },
+    {
+      "method": "POST",
+      "path": "/v2/review/change-status",
+      "operation_id": "ReviewChangeStatusV2",
+      "summary": "Изменить статус отзывов",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ReviewChangeStatusV2"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/review/change-status",
+      "operation_id": "ReviewAPI_ReviewChangeStatus",
+      "summary": "Изменить статус отзывов Deprecated",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ReviewAPI_ReviewChangeStatus"
+    },
+    {
+      "method": "POST",
+      "path": "/v2/review/count",
+      "operation_id": "ReviewCountV2",
+      "summary": "Получить количество отзывов по статусам",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ReviewCountV2"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/review/count",
+      "operation_id": "ReviewAPI_ReviewCount",
+      "summary": "Количество отзывов по статусам Deprecated",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ReviewAPI_ReviewCount"
+    },
+    {
+      "method": "POST",
+      "path": "/v2/review/info",
+      "operation_id": "ReviewInfoV2",
+      "summary": "Получить информацию по отзыву",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ReviewInfoV2"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/review/info",
+      "operation_id": "ReviewAPI_ReviewInfo",
+      "summary": "Получить информацию об отзыве Deprecated",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ReviewAPI_ReviewInfo"
+    },
+    {
+      "method": "POST",
+      "path": "/v2/review/list",
+      "operation_id": "ReviewListV2",
+      "summary": "Получить список отзывов",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ReviewListV2"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/review/list",
+      "operation_id": "ReviewAPI_ReviewList",
+      "summary": "Получить список отзывов Deprecated",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ReviewAPI_ReviewList"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/question/answer/create",
+      "operation_id": "QuestionAnswer_Create",
+      "summary": "Создать ответ на вопрос",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/QuestionAnswer_Create"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/question/answer/delete",
+      "operation_id": "QuestionAnswer_Delete",
+      "summary": "Удалить ответ на вопрос",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/QuestionAnswer_Delete"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/question/answer/list",
+      "operation_id": "QuestionAnswer_List",
+      "summary": "Список ответов на вопрос",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/QuestionAnswer_List"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/question/change-status",
+      "operation_id": "Question_ChangeStatus",
+      "summary": "Изменить статус вопросов",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/Question_ChangeStatus"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/question/count",
+      "operation_id": "Question_Count",
+      "summary": "Количество вопросов по статусам",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/Question_Count"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/question/info",
+      "operation_id": "Question_Info",
+      "summary": "Информация о вопросе",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/Question_Info"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/question/list",
+      "operation_id": "Question_List",
+      "summary": "Список вопросов",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/Question_List"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/question/top-sku",
+      "operation_id": "Question_TopSku",
+      "summary": "Товары с наибольшим количеством вопросов",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/Question_TopSku"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/notification/set",
+      "operation_id": "SetNotification",
+      "summary": "Подключить URL-адрес для уведомлений",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/SetNotification"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/notification/update",
+      "operation_id": "UpdateNotification",
+      "summary": "Изменить URL-адрес для уведомлений",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/UpdateNotification"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/notification/delete",
+      "operation_id": "DeleteNotification",
+      "summary": "Удалить URL-адрес для уведомлений",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/DeleteNotification"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/notification/check",
+      "operation_id": "CheckNotification",
+      "summary": "Проверить URL-адрес для уведомлений",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/CheckNotification"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/notification/enable",
+      "operation_id": "EnableNotification",
+      "summary": "Включить или выключить уведомления на URL-адрес",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/EnableNotification"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/notification/list",
+      "operation_id": "NotificationList",
+      "summary": "Получить информацию по подключённым URL-адресам",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/NotificationList"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/notification/push-type/list",
+      "operation_id": "GetNotificationPushTypeList",
+      "summary": "Получить типы пуш-уведомлений",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/GetNotificationPushTypeList"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/analytics/manage/stocks",
+      "operation_id": "AnalyticsAPI_ManageStocks",
+      "summary": "Управление остатками",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/AnalyticsAPI_ManageStocks"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/analytics/decommissioned-goods",
+      "operation_id": "AnalyticsDecommissionedGoods",
+      "summary": "Получить отчёт о списанных товарах",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/AnalyticsDecommissionedGoods"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/analytics/category/comparison",
+      "operation_id": "AnalyticsCategoryComparison",
+      "summary": "Получить информацию о сравнении категорий",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/AnalyticsCategoryComparison"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/removal/from-supply/list",
+      "operation_id": "GetSupplyReturnsSummaryReport",
+      "summary": "Отчёт по вывозу и утилизации с поставки FBO",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/GetSupplyReturnsSummaryReport"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/removal/from-stock/list",
+      "operation_id": "GetSupplierReturnsSummaryReport",
+      "summary": "Отчёт по вывозу и утилизации со стока FBO",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/GetSupplierReturnsSummaryReport"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/product/stairway-discount/by-quantity/set",
+      "operation_id": "ProductAPI_SetProductStairwayDiscountByQuantity",
+      "summary": "Управлять скидкой от количества",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ProductAPI_SetProductStairwayDiscountByQuantity"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/product/stairway-discount/by-quantity/get",
+      "operation_id": "ProductAPI_GetProductStairwayDiscountByQuantity",
+      "summary": "Получить информацию о скидке от количества",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ProductAPI_GetProductStairwayDiscountByQuantity"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/finance/balance",
+      "operation_id": "GetFinanceBalanceV1",
+      "summary": "Получить отчёт о балансе",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/GetFinanceBalanceV1"
+    },
+    {
+      "method": "POST",
+      "path": "/v2/actions/discounts-task/list",
+      "operation_id": "GetDiscountTaskListV2",
+      "summary": "Получить список заявок на скидку",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/GetDiscountTaskListV2"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/product/visibility/set",
+      "operation_id": "ProductVisibilitySet",
+      "summary": "Настроить видимость товара на витрине Ozon и Ozon Селект",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ProductVisibilitySet"
+    },
+    {
+      "method": "POST",
+      "path": "/v2/posting/digital/list",
+      "operation_id": "PostingDigitalList",
+      "summary": "Получить список отправлений",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/PostingDigitalList"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/finance/accrual/postings",
+      "operation_id": "GetFinanceAccrualPostings",
+      "summary": "Получить начисления по отправлениям",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/GetFinanceAccrualPostings"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/finance/accrual/types",
+      "operation_id": "GetFinanceAccrualTypes",
+      "summary": "Получить справочник начислений",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/GetFinanceAccrualTypes"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/finance/accrual/by-day",
+      "operation_id": "GetFinanceAccrualByDay",
+      "summary": "Получить начисления за день",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/GetFinanceAccrualByDay"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/product/visibility/info",
+      "operation_id": "ProductVisibilityInfo",
+      "summary": "Получить информацию о видимости товара",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ProductVisibilityInfo"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/posting/fbp/get",
+      "operation_id": "GetFbpPosting",
+      "summary": "Получить информацию об отправлении по идентификатору",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/GetFbpPosting"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/description-category/dependent-attributes",
+      "operation_id": "DescriptionCategoryDependentAttributes",
+      "summary": "Получить зависимые характеристики",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/DescriptionCategoryDependentAttributes"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/description-category/dependent-attributes/values",
+      "operation_id": "DescriptionCategoryDependentAttributesValues",
+      "summary": "Получить возможные значения дочерней характеристики",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/DescriptionCategoryDependentAttributesValues"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/analytics/local-sale/total",
+      "operation_id": "AnalyticsLocalSaleTotal",
+      "summary": "Получить общую информацию о локальности продаж",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/AnalyticsLocalSaleTotal"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/analytics/local-sale/clusters-items/info",
+      "operation_id": "AnalyticsLocalSaleClustersItemsInfo",
+      "summary": "Получить информацию о локальности продаж по кластерам",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/AnalyticsLocalSaleClustersItemsInfo"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/analytics/local-sale/items-clusters/info",
+      "operation_id": "AnalyticsLocalSaleItemsClustersInfo",
+      "summary": "Получить информацию о локальности продаж товара по кластерам",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/AnalyticsLocalSaleItemsClustersInfo"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/warehouse/rfbs/return-point/list",
+      "operation_id": "WarehouseRfbsReturnPointList",
+      "summary": "Получить список пунктов возврата для склада rFBS",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/WarehouseRfbsReturnPointList"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/supply-order/shipment-plan-compliance/get",
+      "operation_id": "SupplyOrderShipmentPlanComplianceGet",
+      "summary": "Получить информацию о выполнении плана отгрузок",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/SupplyOrderShipmentPlanComplianceGet"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/return/box/get-by-barcode",
+      "operation_id": "ReturnAPI_BoxGetByBarcode",
+      "summary": "Получить информацию о возвратных коробках по штрихкоду с этикетки",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ReturnAPI_BoxGetByBarcode"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/product/mismatches/list",
+      "operation_id": "ProductMismatchesList",
+      "summary": "Получить несоответствия характеристик товаров",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ProductMismatchesList"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/report/finance/realization/list",
+      "operation_id": "ReportFinanceRealizationList",
+      "summary": "Получить список номеров отчётов о реализации товаров",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ReportFinanceRealizationList"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/report/finance/realization/number/create",
+      "operation_id": "CreateFinanceRealizationNumberReport",
+      "summary": "Получить идентификатор отчёта о реализации товаров по номеру",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/CreateFinanceRealizationNumberReport"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/report/finance/realization/number/posting/create",
+      "operation_id": "CreateFinanceRealizationNumberPostingReport",
+      "summary": "Получить идентификатор позаказного отчёта о реализации товаров по номеру",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/CreateFinanceRealizationNumberPostingReport"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/review/first-reviews-collection/planned-product/activate",
+      "operation_id": "ReviewFirstReviewsCollectionPlannedProductActivate",
+      "summary": "Запустить запланированный сбор отзывов",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ReviewFirstReviewsCollectionPlannedProductActivate"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/review/first-reviews-collection/product/add",
+      "operation_id": "ReviewFirstReviewsCollectionProductAdd",
+      "summary": "Добавить товары в сбор отзывов",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ReviewFirstReviewsCollectionProductAdd"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/review/first-reviews-collection/product/delete",
+      "operation_id": "ReviewFirstReviewsCollectionProductDelete",
+      "summary": "Удалить товары из сбора отзывов",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ReviewFirstReviewsCollectionProductDelete"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/review/first-reviews-collection/product/list",
+      "operation_id": "ReviewFirstReviewsCollectionProductList",
+      "summary": "Получить список товаров, которые участвуют в сборе отзывов",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ReviewFirstReviewsCollectionProductList"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/review/first-reviews-collection/product/list-detailed",
+      "operation_id": "ReviewFirstReviewsCollectionProductListDetailed",
+      "summary": "Получить информацию о товарах в сборе отзывов",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ReviewFirstReviewsCollectionProductListDetailed"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/review/first-reviews-collection/product/repeat",
+      "operation_id": "ReviewFirstReviewsCollectionProductRepeat",
+      "summary": "Повторить сбор отзывов",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ReviewFirstReviewsCollectionProductRepeat"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/review/first-reviews-collection/product/toggle",
+      "operation_id": "ReviewFirstReviewsCollectionProductToggle",
+      "summary": "Остановить или продолжить сбор отзывов",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ReviewFirstReviewsCollectionProductToggle"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/review/first-reviews-collection/product/update-target",
+      "operation_id": "ReviewFirstReviewsCollectionProductUpdateTarget",
+      "summary": "Изменить цель по отзывам",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ReviewFirstReviewsCollectionProductUpdateTarget"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/seller-actions/create/discount",
+      "operation_id": "SellerActionsCreateDiscount",
+      "summary": "Создать акцию с механикой «Скидка»",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/SellerActionsCreateDiscount"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/seller-actions/create/discount-with-condition",
+      "operation_id": "SellerActionsCreateDiscountWithCondition",
+      "summary": "Создать акцию с механикой «Скидка от суммы заказа»",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/SellerActionsCreateDiscountWithCondition"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/seller-actions/create/installment",
+      "operation_id": "SellerActionsCreateInstallment",
+      "summary": "Создать акцию с механикой «Беспроцентная рассрочка»",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/SellerActionsCreateInstallment"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/seller-actions/create/multi-level-discount",
+      "operation_id": "SellerActionsCreateMultiLevelDiscount",
+      "summary": "Создать акцию с механикой «Многоуровневая скидка от суммы»",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/SellerActionsCreateMultiLevelDiscount"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/seller-actions/create/voucher",
+      "operation_id": "SellerActionsCreateVoucher",
+      "summary": "Создать акцию с механикой «Скидка по промокоду»",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/SellerActionsCreateVoucher"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/seller-actions/update/discount",
+      "operation_id": "SellerActionsUpdateDiscount",
+      "summary": "Обновить акцию с механикой «Скидка»",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/SellerActionsUpdateDiscount"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/seller-actions/update/discount-with-condition",
+      "operation_id": "SellerActionsUpdateDiscountWithCondition",
+      "summary": "Обновить акцию с механикой «Скидка от суммы заказа»",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/SellerActionsUpdateDiscountWithCondition"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/seller-actions/update/installment",
+      "operation_id": "SellerActionsUpdateInstallment",
+      "summary": "Обновить акцию с механикой «Беспроцентная рассрочка»",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/SellerActionsUpdateInstallment"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/seller-actions/update/multi-level-discount",
+      "operation_id": "SellerActionsUpdateMultiLevelDiscount",
+      "summary": "Обновить акцию с механикой «Многоуровневая скидка от суммы»",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/SellerActionsUpdateMultiLevelDiscount"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/seller-actions/update/voucher",
+      "operation_id": "SellerActionsUpdateVoucher",
+      "summary": "Обновить акцию с механикой «Скидка по промокоду»",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/SellerActionsUpdateVoucher"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/seller-actions/products/add",
+      "operation_id": "SellerActionsProductsAdd",
+      "summary": "Добавить товары в акцию",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/SellerActionsProductsAdd"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/seller-actions/products/candidates",
+      "operation_id": "SellerActionsProductsCandidates",
+      "summary": "Получить список доступных для акции товаров",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/SellerActionsProductsCandidates"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/seller-actions/products/delete",
+      "operation_id": "SellerActionsProductsDelete",
+      "summary": "Удалить товары из акции",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/SellerActionsProductsDelete"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/seller-actions/products/list",
+      "operation_id": "SellerActionsProductsList",
+      "summary": "Получить список участвующих в акции товаров",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/SellerActionsProductsList"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/seller-actions/archive",
+      "operation_id": "SellerActionsArchive",
+      "summary": "Перенести акцию в архив",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/SellerActionsArchive"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/seller-actions/change-activity",
+      "operation_id": "SellerActionsChangeActivity",
+      "summary": "Включить или выключить акцию",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/SellerActionsChangeActivity"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/seller-actions/list",
+      "operation_id": "SellerActionsList",
+      "summary": "Получить список акций",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/SellerActionsList"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/seller-actions/voucher/get",
+      "operation_id": "SellerActionsVoucherGet",
+      "summary": "Получить файл с промокодами в формате CSV",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/SellerActionsVoucherGet"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/actions/auto-add/products/list",
+      "operation_id": "ActionsAutoAddProductsList",
+      "summary": "Получить список товаров из автодобавления в акцию Deprecated",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ActionsAutoAddProductsList"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/actions/auto-add/products/candidates",
+      "operation_id": "ActionsAutoAddProductsCandidates",
+      "summary": "Получить список доступных товаров для автодобавления в акцию Deprecated",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ActionsAutoAddProductsCandidates"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/actions/auto-add/products/delete",
+      "operation_id": "ActionsAutoAddProductsDelete",
+      "summary": "Удалить товары из автодобавления в акцию Deprecated",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ActionsAutoAddProductsDelete"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/actions/auto-add/products/update",
+      "operation_id": "ActionsAutoAddProductsUpdate",
+      "summary": "Добавить или обновить товары в автодобавлении в акцию Deprecated",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ActionsAutoAddProductsUpdate"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/fbp/warehouse/list",
+      "operation_id": "FbpWarehouseList",
+      "summary": "Получить список партнёрских складов",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/FbpWarehouseList"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/fbp/draft/get",
+      "operation_id": "FbpAPI_FbpDraftGet",
+      "summary": "Получить информацию о черновике поставки",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/FbpAPI_FbpDraftGet"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/fbp/draft/list",
+      "operation_id": "FbpAPI_FbpDraftList",
+      "summary": "Список черновиков поставки",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/FbpAPI_FbpDraftList"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/fbp/draft/direct/seller-dlv/create",
+      "operation_id": "FbpDraftDirectSellerDlvCreate",
+      "summary": "Создать черновик с доставкой силами продавца",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/FbpDraftDirectSellerDlvCreate"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/fbp/draft/direct/seller-dlv/edit",
+      "operation_id": "FbpDraftDirectSellerDlvEdit",
+      "summary": "Обновить информацию о доставке силами продавца в черновике",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/FbpDraftDirectSellerDlvEdit"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/fbp/draft/direct/timeslot/edit",
+      "operation_id": "FbpDraftDirectTimeslotEdit",
+      "summary": "Отредактировать таймслот в черновике",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/FbpDraftDirectTimeslotEdit"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/fbp/draft/direct/timeslot/get",
+      "operation_id": "FbpDraftDirectGetTimeslot",
+      "summary": "Получить список таймслотов для прямой поставки",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/FbpDraftDirectGetTimeslot"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/fbp/draft/direct/create",
+      "operation_id": "FbpDraftDirectCreate",
+      "summary": "Создать черновик заявки на поставку без указания способа доставки",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/FbpDraftDirectCreate"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/fbp/draft/direct/delete",
+      "operation_id": "FbpDraftDirectDelete",
+      "summary": "Удалить черновик заявки на поставку",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/FbpDraftDirectDelete"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/fbp/draft/direct/product/validate",
+      "operation_id": "FbpDraftDirectProductValidate",
+      "summary": "Проверить список товаров для склада партнёра",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/FbpDraftDirectProductValidate"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/fbp/draft/direct/registrate",
+      "operation_id": "FbpDraftDirectRegistrate",
+      "summary": "Перевести черновик в действующую поставку",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/FbpDraftDirectRegistrate"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/fbp/draft/direct/tpl-dlv/create",
+      "operation_id": "FbpAPI_FbpDraftDirectTplDlvCreate",
+      "summary": "Создать черновик заявки на доставку сторонней транспортной компанией",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/FbpAPI_FbpDraftDirectTplDlvCreate"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/fbp/draft/direct/tpl-dlv/edit",
+      "operation_id": "FbpAPI_FbpDraftDirectTplDlvEdit",
+      "summary": "Редактировать черновик поставки со способом доставки сторонней транспортной компанией",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/FbpAPI_FbpDraftDirectTplDlvEdit"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/fbp/draft/drop-off/create",
+      "operation_id": "FbpDraftDropOffCreate",
+      "summary": "Создать черновик для доставки в drop-off пункт",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/FbpDraftDropOffCreate"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/fbp/draft/drop-off/delete",
+      "operation_id": "FbpDraftDropOffDelete",
+      "summary": "Удалить черновик для доставки в drop-off пункт",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/FbpDraftDropOffDelete"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/fbp/draft/drop-off/dlv/edit",
+      "operation_id": "FbpDraftDropOffDlvEdit",
+      "summary": "Отредактировать детали доставки для drop-off черновика",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/FbpDraftDropOffDlvEdit"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/fbp/draft/drop-off/registrate",
+      "operation_id": "FbpDraftDropOffRegistrate",
+      "summary": "Перевести черновик в действующую поставку",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/FbpDraftDropOffRegistrate"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/fbp/draft/drop-off/province/list",
+      "operation_id": "FbpDraftDropOffProvinceList",
+      "summary": "Получить список провинций",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/FbpDraftDropOffProvinceList"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/fbp/draft/drop-off/point/list",
+      "operation_id": "FbpDraftDropOffPointList",
+      "summary": "Получить список drop-off пунктов в провинции",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/FbpDraftDropOffPointList"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/fbp/draft/drop-off/point/timetable",
+      "operation_id": "FbpDraftDropOffPointTimetable",
+      "summary": "Получить расписание работы drop-off пункта",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/FbpDraftDropOffPointTimetable"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/fbp/draft/drop-off/product/validate",
+      "operation_id": "FbpDraftDropOffProductValidate",
+      "summary": "Проверить список товаров, которые склад партнёра может принять",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/FbpDraftDropOffProductValidate"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/fbp/draft/pick-up/create",
+      "operation_id": "FbpAPI_FbpDraftPickupCreate",
+      "summary": "Создать черновик заявки на pick-up поставку",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/FbpAPI_FbpDraftPickupCreate"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/fbp/draft/pick-up/delete",
+      "operation_id": "FbpAPI_FbpDraftPickUpDelete",
+      "summary": "Отменить черновик заявки на pick-up поставку",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/FbpAPI_FbpDraftPickUpDelete"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/fbp/draft/pick-up/dlv/edit",
+      "operation_id": "FbpAPI_FbpDraftPickupDlvEdit",
+      "summary": "Изменить черновик заявки на pick-up поставку",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/FbpAPI_FbpDraftPickupDlvEdit"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/fbp/draft/pick-up/product/validate",
+      "operation_id": "FbpAPI_FbpDraftPickUpProductValidate",
+      "summary": "Провалидировать список товаров для pick-up поставки",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/FbpAPI_FbpDraftPickUpProductValidate"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/fbp/draft/pick-up/registrate",
+      "operation_id": "FbpDraftPickUpRegistrate",
+      "summary": "Перевести черновик в действующую поставку",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/FbpDraftPickUpRegistrate"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/fbp/order/direct/cancel",
+      "operation_id": "FbpAPI_FbpOrderDirectCancel",
+      "summary": "Отменить поставку",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/FbpAPI_FbpOrderDirectCancel"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/fbp/order/direct/seller-dlv/edit",
+      "operation_id": "FbpAPI_FbpOrderDirectSellerDlvEdit",
+      "summary": "Обновить информацию о доставке силами продавца",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/FbpAPI_FbpOrderDirectSellerDlvEdit"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/fbp/order/direct/tpl-dlv/edit",
+      "operation_id": "FbpOrderDirectTplDlvEdit",
+      "summary": "Обновить информацию о доставке сторонней транспортной компанией",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/FbpOrderDirectTplDlvEdit"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/fbp/order/direct/timeslot/edit",
+      "operation_id": "FbpAPI_FbpEditTimeslot",
+      "summary": "Отредактировать таймслот в заявке на поставку",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/FbpAPI_FbpEditTimeslot"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/fbp/order/direct/timeslot/list",
+      "operation_id": "FbpAPI_FbpAvailableTimeslotList",
+      "summary": "Получить список таймслотов для поставки",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/FbpAPI_FbpAvailableTimeslotList"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/fbp/order/drop-off/cancel",
+      "operation_id": "FbpAPI_FbpOrderDropOffCancel",
+      "summary": "Отменить поставку drop-off",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/FbpAPI_FbpOrderDropOffCancel"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/fbp/order/drop-off/dlv/edit",
+      "operation_id": "FbpAPI_FbpOrderDropOffDlvEdit",
+      "summary": "Отредактировать информацию о поставке на drop-off пункт",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/FbpAPI_FbpOrderDropOffDlvEdit"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/fbp/order/drop-off/timetable",
+      "operation_id": "FbpAPI_FbpOrderDropOffTimetable",
+      "summary": "Получить график работы drop-off пункта",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/FbpAPI_FbpOrderDropOffTimetable"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/fbp/order/pick-up/cancel",
+      "operation_id": "FbpAPI_FbpOrderPickUpCancel",
+      "summary": "Отменить pick-up поставку",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/FbpAPI_FbpOrderPickUpCancel"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/fbp/order/pick-up/dlv/edit",
+      "operation_id": "FbpAPI_FbpOrderPickUpDlvEdit",
+      "summary": "Изменить данные о точке забора",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/FbpAPI_FbpOrderPickUpDlvEdit"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/fbp/act-from/create",
+      "operation_id": "FbpAPI_FbpCreateAct",
+      "summary": "Сгенерировать акт приёмки",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/FbpAPI_FbpCreateAct"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/fbp/act-from/get",
+      "operation_id": "FbpAPI_FbpCheckActState",
+      "summary": "Получить статус генерации акта приёмки",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/FbpAPI_FbpCheckActState"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/fbp/act-to/create",
+      "operation_id": "FbpAPI_FbpCreateConsignmentNote",
+      "summary": "Сгенерировать транспортную накладную",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/FbpAPI_FbpCreateConsignmentNote"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/fbp/act-to/get",
+      "operation_id": "FbpAPI_FbpCheckConsignmentNoteState",
+      "summary": "Получить статус генерации транспортной накладной",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/FbpAPI_FbpCheckConsignmentNoteState"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/fbp/archive/get",
+      "operation_id": "FbpAPI_FbpArchiveGet",
+      "summary": "Получить информацию о завершённой поставке",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/FbpAPI_FbpArchiveGet"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/fbp/archive/list",
+      "operation_id": "FbpAPI_FbpArchiveList",
+      "summary": "Получить список завершённых поставок",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/FbpAPI_FbpArchiveList"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/fbp/label/create",
+      "operation_id": "FbpAPI_FbpCreateLabel",
+      "summary": "Cоздать задание на генерацию этикеток",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/FbpAPI_FbpCreateLabel"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/fbp/label/get",
+      "operation_id": "FbpAPI_FbpGetLabel",
+      "summary": "Получить статус задания на генерацию этикеток",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/FbpAPI_FbpGetLabel"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/fbp/order/get",
+      "operation_id": "FbpAPI_FbpOrderGet",
+      "summary": "Получить информацию о конкретной поставке",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/FbpAPI_FbpOrderGet"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/fbp/order/list",
+      "operation_id": "FbpAPI_FbpOrderList",
+      "summary": "Получить список поставок",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/FbpAPI_FbpOrderList"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/posting/fbp/list",
+      "operation_id": "PostingFbpList",
+      "summary": "Получить список отправлений",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/PostingFbpList"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/carriage/container/create",
+      "operation_id": "CarriageContainerCreate",
+      "summary": "Создать грузоместо",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/CarriageContainerCreate"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/carriage/container/fill",
+      "operation_id": "CarriageContainerFill",
+      "summary": "Наполнить грузоместо отправлениями",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/CarriageContainerFill"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/carriage/container/approve",
+      "operation_id": "CarriageContainerApprove",
+      "summary": "Подтвердить состав грузоместа",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/CarriageContainerApprove"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/carriage/container/place-into",
+      "operation_id": "CarriageContainerPlaceInto",
+      "summary": "Разместить коробки на палете",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/CarriageContainerPlaceInto"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/carriage/container/remove-postings",
+      "operation_id": "CarriageContainerRemovePostings",
+      "summary": "Убрать отправления из грузоместа",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/CarriageContainerRemovePostings"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/carriage/container/remove-from",
+      "operation_id": "CarriageContainerRemoveFrom",
+      "summary": "Убрать коробки с палеты",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/CarriageContainerRemoveFrom"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/carriage/container/cancel",
+      "operation_id": "CarriageContainerCancel",
+      "summary": "Отменить грузоместо",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/CarriageContainerCancel"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/carriage/container/list",
+      "operation_id": "CarriageContainerList",
+      "summary": "Получить список грузомест",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/CarriageContainerList"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/carriage/container/get",
+      "operation_id": "CarriageContainerGet",
+      "summary": "Получить информацию о грузоместах",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/CarriageContainerGet"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/carriage/container/status/get",
+      "operation_id": "CarriageContainerStatusGet",
+      "summary": "Получить статус грузомест FBS",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/CarriageContainerStatusGet"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/carriage/container/task/info",
+      "operation_id": "CarriageContainerTaskInfo",
+      "summary": "Получить статус задачи грузового места",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/CarriageContainerTaskInfo"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/carriage/container/document/get",
+      "operation_id": "CarriageContainerDocumentGet",
+      "summary": "Получить документы по грузоместам — ТрН и лист отгрузки",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/CarriageContainerDocumentGet"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/carriage/container/label/get",
+      "operation_id": "CarriageContainerLabelGet",
+      "summary": "Получить этикетку по грузоместам",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/CarriageContainerLabelGet"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/chat/send/message",
+      "operation_id": "ChatAPI_ChatSendMessage",
+      "summary": "Отправить сообщение",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ChatAPI_ChatSendMessage"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/chat/start",
+      "operation_id": "ChatAPI_ChatStart",
+      "summary": "Создать новый чат",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ChatAPI_ChatStart"
+    },
+    {
+      "method": "POST",
+      "path": "/v2/chat/read",
+      "operation_id": "ChatAPI_ChatReadV2",
+      "summary": "Отметить сообщения как прочитанные",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ChatAPI_ChatReadV2"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/analytics/data",
+      "operation_id": "AnalyticsAPI_AnalyticsGetData",
+      "summary": "Данные аналитики",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/AnalyticsAPI_AnalyticsGetData"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/analytics/product-queries",
+      "operation_id": "AnalyticsAPI_AnalyticsProductQueries",
+      "summary": "Получить информацию о запросах моих товаров",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/AnalyticsAPI_AnalyticsProductQueries"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/analytics/product-queries/details",
+      "operation_id": "AnalyticsAPI_AnalyticsProductQueriesDetails",
+      "summary": "Получить детализацию запросов по товару",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/AnalyticsAPI_AnalyticsProductQueriesDetails"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/finance/realization/by-day",
+      "operation_id": "FinanceAPI_GetRealizationByDayReportV1",
+      "summary": "Отчёт о реализации товаров за день",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/FinanceAPI_GetRealizationByDayReportV1"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/search-queries/text",
+      "operation_id": "SearchQueriesAPI_SearchQueriesText",
+      "summary": "Получить список поисковых запросов по тексту",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/SearchQueriesAPI_SearchQueriesText"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/search-queries/top",
+      "operation_id": "SearchQueriesAPI_SearchQueriesTop",
+      "summary": "Получить список популярных поисковых запросов",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/SearchQueriesAPI_SearchQueriesTop"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/product/prices/details",
+      "operation_id": "ProductPricesDetails",
+      "summary": "Получить подробную информацию о ценах товаров",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/ProductPricesDetails"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/cancel-reason/list",
+      "operation_id": "CancelReasonList",
+      "summary": "Причины отмены отправлений",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/CancelReasonList"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/cancel-reason/list-by-order",
+      "operation_id": "CancelReasonListByOrder",
+      "summary": "Причины отмены заказа",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/CancelReasonListByOrder"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/cancel-reason/list-by-posting",
+      "operation_id": "CancelReasonAPI_CancelReasonListByPosting",
+      "summary": "Причины отмены отправления",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/CancelReasonAPI_CancelReasonListByPosting"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/delivery/check",
+      "operation_id": "DeliveryCheck",
+      "summary": "Проверить доступность доставки для покупателя Deprecated",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/DeliveryCheck"
+    },
+    {
+      "method": "POST",
+      "path": "/v2/delivery/checkout",
+      "operation_id": "DeliveryCheckout",
+      "summary": "Получить доступные варианты доставки",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/DeliveryCheckout"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/delivery/map",
+      "operation_id": "DeliveryMap",
+      "summary": "Отрисовать точки на карте",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/DeliveryMap"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/delivery/point/info",
+      "operation_id": "DeliveryPointInfo",
+      "summary": "Получить информацию о точке самовывоза",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/DeliveryPointInfo"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/delivery/point/list",
+      "operation_id": "DeliveryAPI_DeliveryPointList",
+      "summary": "Получить список точек самовывоза",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/DeliveryAPI_DeliveryPointList"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/order/cancel",
+      "operation_id": "OrderAPI_OrderCancel",
+      "summary": "Отменить заказ",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/OrderAPI_OrderCancel"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/order/cancel/check",
+      "operation_id": "OrderAPI_OrderCancelCheck",
+      "summary": "Проверить возможность отмены заказа",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/OrderAPI_OrderCancelCheck"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/order/cancel/status",
+      "operation_id": "OrderAPI_OrderCancelStatus",
+      "summary": "Получить статус отмены заказа",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/OrderAPI_OrderCancelStatus"
+    },
+    {
+      "method": "POST",
+      "path": "/v2/order/create",
+      "operation_id": "OrderAPI_OrderCreate",
+      "summary": "Создать заказ",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/OrderAPI_OrderCreate"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/order/code/get",
+      "operation_id": "OrderAPI_OrderCodeGet",
+      "summary": "Получить код выдачи заказа",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/OrderAPI_OrderCodeGet"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/posting/cancel",
+      "operation_id": "PostingAPI_PostingCancel",
+      "summary": "Отменить отправление из заказа",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/PostingAPI_PostingCancel"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/posting/cancel/status",
+      "operation_id": "PostingAPI_PostingCancelStatus",
+      "summary": "Проверить статус отмены отправления",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/PostingAPI_PostingCancelStatus"
+    },
+    {
+      "method": "POST",
+      "path": "/v1/posting/marks",
+      "operation_id": "PostingAPI_PostingMarks",
+      "summary": "Получить маркировки экземпляров из отправления",
+      "documentation": "https://docs.ozon.ru/api/seller/#operation/PostingAPI_PostingMarks"
+    }
+  ]
+}
